@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickToppers v1.0</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" defer></script>
+
+  <style>
+    :root{
+      --bg:#070914;
+      --panel: rgba(255,255,255,0.04);
+      --panel-border: rgba(255,255,255,0.06);
+      --muted: #9aa6bf;
+      --accent: #2fb7ff;
+      --accent-2: #4a8bff;
+    }
+
+    html,body{
+      height:100%;
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(40,60,120,0.06), transparent),
+                  radial-gradient(900px 450px at 90% 80%, rgba(0,160,200,0.04), transparent),
+                  var(--bg);
+      color: #e7eefc;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto;
+      overflow-x:hidden;
+    }
+
+    .page-enter { animation: pageFadeIn 800ms cubic-bezier(.2,.9,.2,1) both; }
+    @keyframes pageFadeIn { from { opacity:0; transform: translateY(14px);} to { opacity:1; transform: translateY(0);} }
+
+    .glass {
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      backdrop-filter: blur(8px) saturate(120%);
+    }
+
+    .glow-card {
+      position:relative;
+      border-radius:14px;
+      overflow:visible;
+      z-index:0;
+      cursor:pointer; /* ADDED FOR CLICK */
+    }
+    .glow-card::before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      border-radius:16px;
+      padding:2px;
+      background: linear-gradient(60deg, rgba(47,183,255,0.14), rgba(74,139,255,0.12), rgba(0,230,200,0.07));
+      filter:blur(10px);
+      z-index:-2;
+      animation: glowShift 4s linear infinite;
+      background-size:300% 300%;
+    }
+    .glow-card::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      border-radius:14px;
+      z-index:-1;
+      pointer-events:none;
+      box-shadow: 0 6px 30px rgba(35,80,160,0.12);
+      mix-blend-mode: screen;
+    }
+    @keyframes glowShift{
+      0%{ background-position:0% 50%;}
+      50%{ background-position:100% 50%;}
+      100%{ background-position:0% 50%;}
+    }
+
+    .btn-scale { transition: transform .14s ease; }
+    .btn-scale:hover { transform: scale(1.06); }
+
+    .btn-shine{
+      position:relative;
+      overflow:hidden;
+    }
+    .btn-shine::after{
+      content:"";
+      position:absolute; top:-50%; left:-30%;
+      width:40%; height:200%;
+      transform:rotate(25deg);
+      background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.18), rgba(255,255,255,0.04));
+      opacity:0; transition: all 450ms ease;
+    }
+    .btn-shine:hover::after{ left:120%; opacity:1; }
+
+    .muted { color: var(--muted); }
+
+    .logo-box{
+      width:48px; height:48px; border-radius:8px;
+      display:flex; align-items:center; justify-content:center;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.04);
+    }
+    .badge-star{
+      width:18px;height:18px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      box-shadow:0 6px 18px rgba(40,140,255,0.16);
+      font-size:11px;color:white;
+    }
+
+    .reveal{ opacity:0; transform:translateY(16px); transition:all 600ms cubic-bezier(.2,.9,.2,1); }
+    .reveal.show{ opacity:1; transform:translateY(0); }
+
+    @media(max-width:640px){ .logo-box{ width:44px;height:44px;} }
+  </style>
+</head>
+
+<body class="page-enter">
+
+  <!-- NAV -->
+  <nav class="w-full glass backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="rounded-md px-2 py-1 bg-white/5">
+          <i class="fa-solid fa-globe text-blue-300"></i>
+        </div>
+        <h1 class="text-lg font-semibold"><span class="text-white">Quick</span><span class="text-blue-400">Toppers</span></h1>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a class="muted text-sm hidden md:inline" href="#partners">Partners</a>
+        <a class="muted text-sm hidden md:inline" href="#learn">Courses</a>
+        <a class="btn-scale btn-shine px-4 py-2 rounded-lg glass border text-sm flex items-center gap-2" href="#">
+          <i class="fa-solid fa-robot text-blue-300"></i> Chat AI
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto px-4 pt-10 pb-24">
+
+    <!-- HERO -->
+    <header class="rounded-2xl overflow-hidden p-8 md:p-12 mb-8 glass">
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="inline-flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-blue-900/30 to-slate-900/40 text-blue-200 text-sm mb-4 glass">
+          <i class="fa-solid fa-rocket"></i>
+          The Future of Learning is Here
+        </div>
+
+        <h2 class="text-3xl md:text-5xl font-extrabold">
+          Unlock the Universe of <span class="text-blue-400">Learning</span>
+        </h2>
+
+        <p class="muted mt-4">
+          Where knowledge meets innovation — explore institutes, courses and AI in one seamless ecosystem.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3 items-center justify-center">
+          <a href="#partners" class="btn-scale btn-shine px-5 py-3 rounded-lg shadow-lg bg-gradient-to-r from-blue-500 to-blue-400 text-white flex items-center gap-3">
+            <i class="fa-solid fa-building-columns"></i> Explore Institutes
+          </a>
+
+          <a href="#" class="btn-shine px-5 py-3 rounded-lg glass text-blue-200 flex items-center gap-3">
+            <i class="fa-solid fa-comments"></i> Chat with AI
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- PARTNERS -->
+    <section id="partners" class="mb-12">
+      <h3 class="text-2xl font-semibold text-blue-400 mb-2">Premier Learning Partners</h3>
+      <p class="muted mb-6">Discover top-tier institutes inside one platform.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <!-- Next Toppers -->
+        <article onclick="go('batches.html?id=NT80')" class="glow-card glass p-4 flex items-center justify-between reveal">
+          <div class="flex items-center gap-4">
+            <div class="logo-box">
+              <i class="fa-solid fa-layer-group text-blue-300 text-lg"></i>
+            </div>
+            <div>
+              <div class="flex gap-2 items-center">
+                <h4 class="font-medium">Next Toppers</h4>
+                <span class="badge-star">★</span>
+              </div>
+              <p class="muted text-sm">Click to explore</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right text-blue-300"></i>
+        </article>
+
+        <!-- Physics Wallah -->
+        <article onclick="go('batches.html?id=PW30')" class="glow-card glass p-4 flex items-center justify-between reveal">
+          <div class="flex items-center gap-4">
+            <div class="logo-box"><i class="fa-solid fa-book text-blue-300 text-lg"></i></div>
+            <div>
+              <div class="flex gap-2 items-center">
+                <h4 class="font-medium">Physics Wallah</h4>
+                <span class="badge-star">★</span>
+              </div>
+              <p class="muted text-sm">Click to explore</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right text-blue-300"></i>
+        </article>
+
+        <!-- Padhle Akshay -->
+        <article onclick="go('batches.html?id=PA50')" class="glow-card glass p-4 flex items-center justify-between reveal">
+          <div class="flex items-center gap-4">
+            <div class="logo-box"><i class="fa-solid fa-graduation-cap text-blue-300 text-lg"></i></div>
+            <div>
+              <h4 class="font-medium">Padhle Akshay</h4>
+              <p class="muted text-sm">Click to explore</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right text-blue-300"></i>
+        </article>
+
+        <!-- Master Sahab -->
+        <article onclick="go('batches.html?id=MS40')" class="glow-card glass p-4 flex items-center justify-between reveal">
+          <div class="flex items-center gap-4">
+            <div class="logo-box"><i class="fa-solid fa-chart-line text-blue-300 text-lg"></i></div>
+            <div>
+              <h4 class="font-medium">Master Sahab</h4>
+              <p class="muted text-sm">Click to explore</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right text-blue-300"></i>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-16 text-center muted">
+      <div class="mb-3"><strong class="text-blue-300">QuickToppers</strong> Learning Ecosystem</div>
+      <div class="text-sm">&copy; QuickToppers Network | 2024-25</div>
+    </footer>
+  </main>
+
+  <!-- Reveal animation -->
+  <script>
+    const reveals=document.querySelectorAll('.reveal');
+    function reveal(){
+      const t=window.innerHeight*0.92;
+      reveals.forEach(r=>{
+        const top=r.getBoundingClientRect().top;
+        if(top<t) r.classList.add('show');
+      });
+    }
+    window.addEventListener('scroll',reveal);
+    reveal();
+
+    // REDIRECT FUNCTION
+    function go(url){
+      window.location.href = url;
+    }
+  </script>
+
+</body>
+  </html>
