@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player – QuickToppers</title>
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Icons -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" defer></script>
+
+<style>
+    body {
+        background:#070914;
+        margin:0;
+        font-family:Inter,sans-serif;
+        color:white;
+        overflow:hidden;
+    }
+    .topbar {
+        position:absolute;
+        top:0; left:0;
+        width:100%;
+        padding:12px 18px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        z-index:50;
+        background:rgba(0,0,0,0.25);
+        backdrop-filter:blur(6px);
+    }
+    .glow {
+        text-shadow:0 0 12px rgba(80,160,255,0.6);
+    }
+    video {
+        width:100vw;
+        height:100vh;
+        object-fit:contain;
+        background:black;
+    }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+    <button onclick="history.back()" class="text-blue-300 text-2xl">
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
+
+    <h2 id="videoTitle" class="text-lg font-semibold glow"></h2>
+
+    <div class="w-8"></div>
+</div>
+
+<!-- VIDEO PLAYER -->
+<video id="player" controls autoplay></video>
+
+<script>
+
+// Read URL parameters
+const params = new URLSearchParams(window.location.search);
+
+const inst     = params.get("institute");
+const batch    = params.get("batch");
+const subject  = params.get("subject");
+const chapter  = params.get("chapter");
+const lecture  = params.get("lecture");     // expecting lec1, lec2, lec3
+const directLink = params.get("link");
+
+// Video element
+const player = document.getElementById("player");
+
+
+// If ?link= exists → play directly
+if (directLink) {
+    player.src = directLink;
+    document.getElementById("videoTitle").innerText = "Now Playing";
+} else {
+    loadFromJSON();
+}
+
+
+async function loadFromJSON() {
+    try {
+        const res = await fetch("data/content.json");
+        const data = await res.json();
+
+        // Validate institute
+        if (!data[inst]) {
+            alert("Invalid Institute ID");
+            return;
+        }
+
+        // Validate batch
+        if (!data[inst][batch]) {
+            alert("Invalid Batch ID");
+            return;
+        }
+
+        // Validate subject
+        if (!data[inst][batch][subject]) {
+            alert("Invalid Subject ID");
+            return;
+        }
+
+        const subjectData = data[inst][batch][subject];
+
+        // Get chapter
+        const chapterData = subjectData.chapters.find(c => c.id === chapter);
+        if (!chapterData) {
+            alert("Chapter Not Found");
+            return;
+        }
+
+        // Get videos array
+        const videos = chapterData.videos;
+
+        // Find lecture by ID
+        let selected = videos.find(v => v.id === lecture);
+
+        // Fallback if invalid
+        if (!selected) {
+            selected = videos[0];  // play first
+        }
+
+        // Set video + title
+        player.src = selected.play;
+        document.getElementById("videoTitle").innerText = selected.title;
+
+    } catch (error) {
+        console.log(error);
+        alert("Error fetching content.json");
+    }
+}
+
+</script>
+
+</body>
+</html>
