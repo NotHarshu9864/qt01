@@ -1,0 +1,36 @@
+{
+  "NT80": {
+    "vv10": [
+      {
+        "name": "Mathematics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v10&subject=maths"
+      },
+      {
+        "name": "Science",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv10&subject=science"
+      },
+      {
+        "name": "English",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv10&subject=english"
+      }
+    ]
+  },
+
+  "PW30": {
+    "alpha10": [
+      {
+        "name": "Physics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=alpha10&subject=physics"
+      },
+      {
+        "name": "Chemistry",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=alpha10&subject=chemistry"
+      }
+    ]
+  }
+}
