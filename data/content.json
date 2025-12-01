@@ -2,43 +2,43 @@
   "NT80": {
     "v10": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/science.json"
       },
       "maths": {
         "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/sst.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/hindi.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10/it.json"
       }
     },
 
     "v9": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/science.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/sst.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/hindi.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/it.json"
       }
     },
     "v11": {
