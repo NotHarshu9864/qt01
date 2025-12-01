@@ -43,82 +43,82 @@
     },
     "v11": {
       "business-studies": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/bs.json"
       },
       "accountancy": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/acc.json"
       },
       "economics": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/eco.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/hindi.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/maths.json"
       }
     },
     "v12": {
       "business-studies": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/bs.json"
       },
       "accountancy": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/acc.json"
       },
       "economics": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/eco.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/hindi.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v12/maths.json"
       }
     },
     "vv9": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
       }
     },
     "vv10": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
       }
     }
   },
