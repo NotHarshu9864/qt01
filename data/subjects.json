@@ -9,13 +9,28 @@
       {
         "name": "Science",
         "thumbnail": "img/quick.jpg",
-        "link": "content.html?institute=NT80&batch=vv10&subject=science"
+        "link": "content.html?institute=NT80&batch=v10&subject=science"
       },
       {
         "name": "English",
         "thumbnail": "img/quick.jpg",
-        "link": "content.html?institute=NT80&batch=vv10&subject=english"
-      }
+        "link": "content.html?institute=NT80&batch=v10&subject=english"
+      },
+     {
+        "name": "Social Science",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v10&subject=sst"
+      },
+     {
+        "name": "Hindi",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v10&subject=hindi"
+      },
+     {
+        "name": "Information Technology",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v10&subject=it"
+      },
     ]
   },
 
