@@ -1,112 +1,133 @@
 {
   "NT80": {
-    "vv10": {
+    "v10": {
+      "scinece": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
       "maths": {
-        "chapters": [
-          {
-            "id": "ch1",
-            "title": "Real Numbers",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1 – Introduction",
-                "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4373763/174653575278717555169/174653575278717555169_7555169.m3u8",
-                "notes": "notes/real_numbers_1.pdf"
-              },
-              {
-                "id": "lec2",
-                "title": "Lecture 2 – Euclid Division",
-                "play": "https://example.com/video2.m3u8",
-                "notes": "notes/real_numbers_2.pdf"
-              }
-            ]
-          },
-          {
-            "id": "ch2",
-            "title": "Polynomials",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1 – Basics",
-                "play": "https://example.com/video3.m3u8",
-                "notes": "notes/polynomials_1.pdf"
-              }
-            ]
-          }
-        ]
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v10"
       },
-
-      "science": {
-        "chapters": [
-          {
-            "id": "sc1",
-            "title": "Matter in Our Surroundings",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1 – State of Matter",
-                "play": "https://example.com/video4.m3u8",
-                "notes": "notes/matter_1.pdf"
-              }
-            ]
-          }
-        ]
+      "sst": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
       },
-
       "english": {
-        "chapters": [
-          {
-            "id": "eng1",
-            "title": "Prose – Chapter 1",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1",
-                "play": "https://example.com/video5.m3u8",
-                "notes": "notes/eng1.pdf"
-              }
-            ]
-          }
-        ]
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "it": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      }
+    },
+
+    "v9": {
+      "scinece": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "sst": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "english": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "it": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      }
+    },
+    "v11": {
+      "business-studies": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "accountancy": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "economics": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "english": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      }
+    },
+    "v12": {
+      "business-studies": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "accountancy": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "economics": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "english": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      }
+    },
+    "vv9": {
+      "scinece": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "sst": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "english": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "it": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      }
+    },
+    "vv10": {
+      "scinece": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "sst": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "english": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "hindi": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
+      },
+      "it": {
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/v9/maths.json"
       }
     }
   },
 
   "PW30": {
-    "alpha10": {
+    "pw10": {
       "physics": {
-        "chapters": [
-          {
-            "id": "phy1",
-            "title": "Laws of Motion",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1",
-                "play": "https://example.com/video6.m3u8",
-                "notes": "notes/lom_1.pdf"
-              }
-            ]
-          }
-        ]
-      },
-
-      "chemistry": {
-        "chapters": [
-          {
-            "id": "chem1",
-            "title": "Chemical Reactions",
-            "videos": [
-              {
-                "id": "lec1",
-                "title": "Lecture 1",
-                "play": "https://example.com/video7.m3u8",
-                "notes": "notes/chem_1.pdf"
-              }
-            ]
-          }
-        ]
+        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/PW30/pw10/physics.json"
       }
     }
   }
-}
+    }
