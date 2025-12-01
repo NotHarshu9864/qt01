@@ -145,6 +145,7 @@
 <div id="chapterBox" class="max-w-4xl mx-auto px-4 py-8"></div>
 
 <script>
+
 function toggleSidebar(){ document.getElementById("sidebar").classList.toggle("open"); }
 
 const params = new URLSearchParams(window.location.search);
@@ -156,6 +157,7 @@ const chapterBox = document.getElementById("chapterBox");
 let mode = "video";
 let openedChapter = null;
 
+// Tab switching
 document.getElementById("videoTab").onclick = () => { mode="video"; setTabs(); refreshCurrentChapter(); }
 document.getElementById("notesTab").onclick = () => { mode="notes"; setTabs(); refreshCurrentChapter(); }
 
@@ -164,11 +166,18 @@ function setTabs(){
     notesTab.classList.toggle("tab-active", mode==="notes");
 }
 
+let SUBJECT_SOURCE_LINK = "";   // GitHub JSON link
+let GITHUB_DATA = null;         // fetched GitHub chapter/lecture data
+
+// Load subject → find GitHub link → fetch full content
 async function loadContent(){
+
+    // Step 1: Load LOCAL content.json
     const res = await fetch("data/content.json");
     const data = await res.json();
 
-    if(!data[inst] || !data[inst][batch] || !data[inst][batch][subject]){
+    // Validate
+    if(!data[inst] || !data[inst][batch] || !data[inst][batch][subject]) {
         chapterBox.innerHTML = `
         <div class="glass p-6 text-center rounded-xl text-red-400 text-lg font-semibold">
             <i class="fa-solid fa-circle-exclamation text-red-500 text-3xl mb-3"></i><br>
@@ -180,25 +189,54 @@ async function loadContent(){
     document.getElementById("subjectTitle").innerText =
         subject.charAt(0).toUpperCase()+subject.slice(1);
 
-    const chapters = data[inst][batch][subject].chapters;
+    // Step 2: Pick GitHub source link
+    SUBJECT_SOURCE_LINK = data[inst][batch][subject].source;
+
+    if(!SUBJECT_SOURCE_LINK){
+        chapterBox.innerHTML = `
+        <div class="glass p-6 text-center rounded-xl text-red-400 text-lg font-semibold">
+            Missing GitHub Subject Source Link
+        </div>`;
+        return;
+    }
+
+    // Step 3: Fetch FULL CHAPTER DATA from GitHub JSON
+    try{
+        const gh = await fetch(SUBJECT_SOURCE_LINK);
+        GITHUB_DATA = await gh.json();
+    }
+    catch(e){
+        chapterBox.innerHTML = `
+        <div class="glass p-6 text-center rounded-xl text-red-400 text-lg font-semibold">
+            Cannot load Subject Content (GitHub JSON Error)
+        </div>`;
+        return;
+    }
+
+    // Step 4: Load chapters on screen
+    const chapters = GITHUB_DATA.chapters;
     chapterBox.innerHTML = "";
 
     chapters.forEach(ch=>{
-        let card = `
+        chapterBox.innerHTML += `
         <div id="card_${ch.id}" class="glow-card glass p-5 mb-4">
+
             <div class="flex justify-between items-center">
                 <h3 class="text-xl font-semibold">${ch.title}</h3>
+
                 <button class="glass px-4 py-2 rounded-md hover:bg-blue-500/30"
                     onclick="openChapter('${ch.id}')">
                     Open
                 </button>
             </div>
+
             <div id="content_${ch.id}" class="mt-4 hidden"></div>
         </div>`;
-        chapterBox.innerHTML += card;
     });
 }
 
+
+// CHAPTER OPEN
 async function openChapter(id){
     openedChapter = id;
 
@@ -213,26 +251,27 @@ async function openChapter(id){
     loadLectures(id);
 }
 
-async function loadLectures(id){
-    const res = await fetch("data/content.json");
-    const data = await res.json();
 
-    const chapters = data[inst][batch][subject].chapters;
-    const chapter = chapters.find(c => c.id === id);
+// Load lectures from GitHub JSON (GITHUB_DATA)
+function loadLectures(id){
 
+    const chapter = GITHUB_DATA.chapters.find(c => c.id === id);
     let html = "";
 
     chapter.videos.forEach(v=>{
-        let link = mode === "video" ? v.play : v.notes;
+        const btnURL = `player.html?institute=${inst}&batch=${batch}&subject=${subject}&chapter=${id}&lecture=${v.id}`;
 
         html += `
         <div class="glow-card glass p-4 mb-4">
+
             <h4 class="font-semibold mb-2">${v.title}</h4>
-            <button onclick="location.href='${link}'"
+
+            <button onclick="location.href='${btnURL}'"
                 class="w-full p-3 rounded-md text-white flex justify-center gap-2"
                 style="background:linear-gradient(90deg,var(--accent),var(--accent-2));">
                 <i class="fa-solid fa-play"></i> Let's Study
             </button>
+
         </div>`;
     });
 
@@ -257,7 +296,8 @@ function goBack(){
 }
 
 loadContent();
+
 </script>
 
 </body>
-                                                                                                                                                         </html>
+    </html>
