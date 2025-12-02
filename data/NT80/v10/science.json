@@ -1,0 +1,601 @@
+{
+  "subject": "science",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Chemical Reactions & Equations",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch2",
+      "title": "Light",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch3",
+      "title": "Life Processes",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch4",
+      "title": "Acids, bases and salts",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Doubt Solving Class",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch5",
+      "title": "Human Eye",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Doubt Solving Class",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch6",
+      "title": "Control and Coordination",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Doubt Solving Class",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch7",
+      "title": "Metals and Non-Metals",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Doubt Solving",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch8",
+      "title": "Electricity",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch9",
+      "title": "How do organisms Reproduce",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch10",
+      "title": "Magnetic Effect of electric current",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Doubt Solving",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Doubt Solving",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch11",
+      "title": "Carbon and it's compound",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec9",
+          "title": "Doubt Solving Class",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch12",
+      "title": "Our Environment",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Doubt Solving",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch13",
+      "title": "Heredity",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/TRS7cu_n108",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Last Class of 10th science",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
