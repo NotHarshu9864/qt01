@@ -1,0 +1,17 @@
+{
+  "subject": "science",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Motion",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
