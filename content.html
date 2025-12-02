@@ -157,19 +157,18 @@ const subject = params.get("subject");
 // Globals
 let mode = "video";
 let openedChapter = null;
-let SUBJECT_SOURCE_LINK = "";
-let GITHUB_DATA = null;
+let SUBJECT_DATA = null;
 
 // Tabs
-document.getElementById("videoTab").onclick = () => { mode = "video"; setTabs(); refreshCurrentChapter(); };
-document.getElementById("notesTab").onclick = () => { mode = "notes"; setTabs(); refreshCurrentChapter(); };
+videoTab.onclick = () => { mode = "video"; setTabs(); refreshCurrentChapter(); };
+notesTab.onclick = () => { mode = "notes"; setTabs(); refreshCurrentChapter(); };
 
 function setTabs() {
     videoTab.classList.toggle("tab-active", mode === "video");
     notesTab.classList.toggle("tab-active", mode === "notes");
 }
 
-// Error Box Function
+// Error Box UI
 function errorBox(text){
     return `
     <div class="glass p-6 text-center rounded-xl text-red-400 text-lg font-semibold">
@@ -177,58 +176,48 @@ function errorBox(text){
     </div>`;
 }
 
-// MAIN CONTENT LOADER
+// MAIN CONTENT LOADER (LOCAL JSON)
 async function loadContent() {
 
     console.clear();
+    chapterBox.innerHTML = "<div class='text-blue-400 p-4'>Loading...</div>";
 
-    const res = await fetch("data/content.json?" + Date.now());
-    const data = await res.json();
+    // Build Local JSON Path
+    const subjectFile = `data/${inst}/${batch}/${subject}.json`;
 
-    if (!data[inst] || !data[inst][batch] || !data[inst][batch][subject]) {
-        chapterBox.innerHTML = errorBox("Content Not Found");
-        return;
-    }
+    console.log("Loading Subject:", subjectFile);
 
-    document.getElementById("subjectTitle").innerText =
-        subject.charAt(0).toUpperCase() + subject.slice(1);
-
-    SUBJECT_SOURCE_LINK = data[inst][batch][subject].source;
-
-    if (!SUBJECT_SOURCE_LINK) {
-        chapterBox.innerHTML = errorBox("No GitHub Source Provided");
-        return;
-    }
-
-    let gh;
+    let res;
     try {
-        gh = await fetch(SUBJECT_SOURCE_LINK + "?" + Date.now());
-    } catch (e) {
-        console.log("FETCH ERROR:", e);
-        chapterBox.innerHTML = errorBox("Cannot load GitHub File");
+        res = await fetch(subjectFile + "?t=" + Date.now());
+    } catch(e){
+        chapterBox.innerHTML = errorBox("Failed to load subject file.");
         return;
     }
 
-    if (!gh.ok) {
-        chapterBox.innerHTML = errorBox("GitHub JSON 404 Not Found");
+    if (!res.ok) {
+        chapterBox.innerHTML = errorBox("Subject JSON Not Found (" + subject + ".json)");
         return;
     }
 
     try {
-        GITHUB_DATA = await gh.json();
-    } catch (e) {
+        SUBJECT_DATA = await res.json();
+    } catch(e){
         chapterBox.innerHTML = errorBox("Invalid JSON Format");
         return;
     }
 
-    if (!GITHUB_DATA.chapters || GITHUB_DATA.chapters.length === 0) {
-        chapterBox.innerHTML = errorBox("No Chapters Found");
+    if (!SUBJECT_DATA.chapters || SUBJECT_DATA.chapters.length === 0) {
+        chapterBox.innerHTML = errorBox("No Chapters Available");
         return;
     }
 
+    // Set Title
+    subjectTitle.innerText = subject.charAt(0).toUpperCase() + subject.slice(1);
+
     // Render Chapters
     chapterBox.innerHTML = "";
-    GITHUB_DATA.chapters.forEach(ch => {
+    SUBJECT_DATA.chapters.forEach(ch => {
         chapterBox.innerHTML += `
         <div id="card_${ch.id}" class="glow-card glass p-5 mb-4">
             <div class="flex justify-between items-center">
@@ -247,11 +236,11 @@ function openChapter(id) {
 
     openedChapter = id;
 
-    document.getElementById("menuBtn").classList.add("hidden");
-    document.getElementById("backBtn").classList.remove("hidden");
+    menuBtn.classList.add("hidden");
+    backBtn.classList.remove("hidden");
 
-    const all = document.querySelectorAll("#chapterBox > div");
-    all.forEach(c => c.style.display = "none");
+    document.querySelectorAll("#chapterBox > div")
+        .forEach(c => c.style.display = "none");
 
     document.getElementById(`card_${id}`).style.display = "block";
 
@@ -261,7 +250,7 @@ function openChapter(id) {
 // LOAD LECTURES
 function loadLectures(id) {
 
-    const chapter = GITHUB_DATA.chapters.find(c => c.id === id);
+    const chapter = SUBJECT_DATA.chapters.find(c => c.id === id);
     let html = "";
 
     chapter.videos.forEach(v => {
@@ -283,14 +272,15 @@ function loadLectures(id) {
     box.classList.remove("hidden");
 }
 
+// BACK BUTTON
 function refreshCurrentChapter(){
     if (openedChapter) loadLectures(openedChapter);
 }
 
 function goBack(){
     openedChapter = null;
-    document.getElementById("menuBtn").classList.remove("hidden");
-    document.getElementById("backBtn").classList.add("hidden");
+    menuBtn.classList.remove("hidden");
+    backBtn.classList.add("hidden");
     loadContent();
 }
 
