@@ -1,1 +1,17 @@
-b
+{
+  "subject": "sst",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "People as Resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
