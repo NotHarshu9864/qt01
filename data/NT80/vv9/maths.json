@@ -1,0 +1,17 @@
+{
+  "subject": "maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Number System",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://www.youtube.com/live/wIz237OBcM0?si=7eZnRH8hMYt50rN-",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
