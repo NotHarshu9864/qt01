@@ -109,7 +109,7 @@
         "source": "data/NT80/vv10/maths.json"
       },
       "sst": {
-        "source": "data/NT80/vv10/sst.json"
+        "source": "data/NT80/vv10/vigyaan.json"
       },
       "english": {
         "source": "data/NT80/vv10/english.json"
