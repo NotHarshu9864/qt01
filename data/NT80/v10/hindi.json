@@ -24,6 +24,18 @@
           "notes": "https://example.com/n1.pdf"
         }
       ]
-    }
+    },
+   {
+      "id": "ch3",
+      "title": "TEST",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 – Introduction",
+          "play": "https://example.com/lec1.m3u8",
+          "notes": "https://example.com/n1.pdf"
+        }
+      ]
+    } // CHAPTER ENDS
   ]
 }
