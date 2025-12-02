@@ -103,7 +103,7 @@
     },
     "vv10": {
       "scinece": {
-        "source": "data/NT80/vv10/science.json"
+        "source": "data/NT80/vv10/vigyaan.json"
       },
       "maths": {
         "source": "data/NT80/vv10/maths.json"
