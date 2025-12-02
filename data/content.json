@@ -83,42 +83,42 @@
     },
     "vv9": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/science.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/sst.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/hindi.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv9/maths.json"
+        "source": "data/NT80/vv9/it.json"
       }
     },
     "vv10": {
       "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/science.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/maths.json"
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/sst.json"
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/english.json"
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/hindi.json"
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/NT80/vv10/maths.json"
+        "source": "data/NT80/vv10/it.json"
       }
     }
   },
