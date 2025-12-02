@@ -1,0 +1,17 @@
+{
+  "subject": "it",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Life ",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
