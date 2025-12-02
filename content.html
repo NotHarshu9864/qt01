@@ -157,18 +157,19 @@ const subject = params.get("subject");
 // Globals
 let mode = "video";
 let openedChapter = null;
-let SUBJECT_DATA = null;
+let SUBJECT_SOURCE_LINK = "";
+let GITHUB_DATA = null;
 
 // Tabs
-videoTab.onclick = () => { mode = "video"; setTabs(); refreshCurrentChapter(); };
-notesTab.onclick = () => { mode = "notes"; setTabs(); refreshCurrentChapter(); };
+document.getElementById("videoTab").onclick = () => { mode = "video"; setTabs(); refreshCurrentChapter(); };
+document.getElementById("notesTab").onclick = () => { mode = "notes"; setTabs(); refreshCurrentChapter(); };
 
 function setTabs() {
     videoTab.classList.toggle("tab-active", mode === "video");
     notesTab.classList.toggle("tab-active", mode === "notes");
 }
 
-// Error Box UI
+// Error Box Function
 function errorBox(text){
     return `
     <div class="glass p-6 text-center rounded-xl text-red-400 text-lg font-semibold">
@@ -176,48 +177,58 @@ function errorBox(text){
     </div>`;
 }
 
-// MAIN CONTENT LOADER (LOCAL JSON)
+// MAIN CONTENT LOADER
 async function loadContent() {
 
     console.clear();
-    chapterBox.innerHTML = "<div class='text-blue-400 p-4'>Loading...</div>";
 
-    // Build Local JSON Path
-    const subjectFile = `data/${inst}/${batch}/${subject}.json`;
+    const res = await fetch("data/content.json?" + Date.now());
+    const data = await res.json();
 
-    console.log("Loading Subject:", subjectFile);
-
-    let res;
-    try {
-        res = await fetch(subjectFile + "?t=" + Date.now());
-    } catch(e){
-        chapterBox.innerHTML = errorBox("Failed to load subject file.");
+    if (!data[inst] || !data[inst][batch] || !data[inst][batch][subject]) {
+        chapterBox.innerHTML = errorBox("Content Not Found");
         return;
     }
 
-    if (!res.ok) {
-        chapterBox.innerHTML = errorBox("Subject JSON Not Found (" + subject + ".json)");
+    document.getElementById("subjectTitle").innerText =
+        subject.charAt(0).toUpperCase() + subject.slice(1);
+
+    SUBJECT_SOURCE_LINK = data[inst][batch][subject].source;
+
+    if (!SUBJECT_SOURCE_LINK) {
+        chapterBox.innerHTML = errorBox("No GitHub Source Provided");
+        return;
+    }
+
+    let gh;
+    try {
+        gh = await fetch(SUBJECT_SOURCE_LINK + "?" + Date.now());
+    } catch (e) {
+        console.log("FETCH ERROR:", e);
+        chapterBox.innerHTML = errorBox("Cannot load GitHub File");
+        return;
+    }
+
+    if (!gh.ok) {
+        chapterBox.innerHTML = errorBox("GitHub JSON 404 Not Found");
         return;
     }
 
     try {
-        SUBJECT_DATA = await res.json();
-    } catch(e){
+        GITHUB_DATA = await gh.json();
+    } catch (e) {
         chapterBox.innerHTML = errorBox("Invalid JSON Format");
         return;
     }
 
-    if (!SUBJECT_DATA.chapters || SUBJECT_DATA.chapters.length === 0) {
-        chapterBox.innerHTML = errorBox("No Chapters Available");
+    if (!GITHUB_DATA.chapters || GITHUB_DATA.chapters.length === 0) {
+        chapterBox.innerHTML = errorBox("No Chapters Found");
         return;
     }
 
-    // Set Title
-    subjectTitle.innerText = subject.charAt(0).toUpperCase() + subject.slice(1);
-
     // Render Chapters
     chapterBox.innerHTML = "";
-    SUBJECT_DATA.chapters.forEach(ch => {
+    GITHUB_DATA.chapters.forEach(ch => {
         chapterBox.innerHTML += `
         <div id="card_${ch.id}" class="glow-card glass p-5 mb-4">
             <div class="flex justify-between items-center">
@@ -236,34 +247,50 @@ function openChapter(id) {
 
     openedChapter = id;
 
-    menuBtn.classList.add("hidden");
-    backBtn.classList.remove("hidden");
+    document.getElementById("menuBtn").classList.add("hidden");
+    document.getElementById("backBtn").classList.remove("hidden");
 
-    document.querySelectorAll("#chapterBox > div")
-        .forEach(c => c.style.display = "none");
+    const all = document.querySelectorAll("#chapterBox > div");
+    all.forEach(c => c.style.display = "none");
 
     document.getElementById(`card_${id}`).style.display = "block";
 
     loadLectures(id);
 }
 
-// LOAD LECTURES
+// LOAD LECTURES (FIXED VERSION)
 function loadLectures(id) {
 
-    const chapter = SUBJECT_DATA.chapters.find(c => c.id === id);
+    const chapter = GITHUB_DATA.chapters.find(c => c.id === id);
     let html = "";
 
     chapter.videos.forEach(v => {
-        const btnURL = `player.html?institute=${inst}&batch=${batch}&subject=${subject}&chapter=${id}&lecture=${v.id}`;
+
+        let clickURL = "";
+
+        if (mode === "video") {
+            // VIDEO MODE → open player
+            clickURL = `player.html?institute=${inst}&batch=${batch}&subject=${subject}&chapter=${id}&lecture=${v.id}`;
+        } 
+        else {
+            // NOTES MODE → open PDF/link
+            clickURL = v.notes;
+        }
 
         html += `
         <div class="glow-card glass p-4 mb-4">
+
             <h4 class="font-semibold mb-2">${v.title}</h4>
-            <button onclick="location.href='${btnURL}'"
+
+            <button onclick="location.href='${clickURL}'"
                 class="w-full p-3 rounded-md text-white flex justify-center gap-2"
                 style="background:linear-gradient(90deg,var(--accent),var(--accent-2));">
-                <i class="fa-solid fa-play"></i> Let's Study
+
+                <i class="fa-solid fa-${mode === "video" ? "play" : "file"}"></i>
+                ${mode === "video" ? "Let's Study" : "Open Notes"}
+
             </button>
+
         </div>`;
     });
 
@@ -272,15 +299,14 @@ function loadLectures(id) {
     box.classList.remove("hidden");
 }
 
-// BACK BUTTON
 function refreshCurrentChapter(){
     if (openedChapter) loadLectures(openedChapter);
 }
 
 function goBack(){
     openedChapter = null;
-    menuBtn.classList.remove("hidden");
-    backBtn.classList.add("hidden");
+    document.getElementById("menuBtn").classList.remove("hidden");
+    document.getElementById("backBtn").classList.add("hidden");
     loadContent();
 }
 
