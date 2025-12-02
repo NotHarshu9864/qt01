@@ -1,141 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Player – QuickToppers</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickToppers - Video Player</title>
 
-<!-- Tailwind -->
-<script src="https://cdn.tailwindcss.com"></script>
+  <!-- Player Libs -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/hls-video-element/+esm"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/player.style/sutro/+esm"></script>
 
-<!-- Icons -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" defer></script>
-
-<style>
+  <style>
     body {
-        background:#070914;
-        margin:0;
-        font-family:Inter,sans-serif;
-        color:white;
-        overflow:hidden;
+      margin: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      user-select: none;
     }
-    .topbar {
-        position:absolute;
-        top:0; left:0;
-        width:100%;
-        padding:12px 18px;
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        z-index:50;
-        background:rgba(0,0,0,0.25);
-        backdrop-filter:blur(6px);
+
+    media-theme-sutro {
+      width: 100%;
+      max-width: 900px;
+      aspect-ratio: 16 / 9;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
     }
-    .glow {
-        text-shadow:0 0 12px rgba(80,160,255,0.6);
+
+    #videoTitle {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      text-shadow: 0 0 8px #000;
+      z-index: 10;
+      user-select: none;
     }
-    video {
-        width:100vw;
-        height:100vh;
-        object-fit:contain;
-        background:black;
+
+    .skip-overlay {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) scale(1);
+      color: #fff;
+      font-size: 64px;
+      text-shadow: 0 0 15px #000;
+      opacity: 0;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+      pointer-events: none;
+      z-index: 20;
     }
-</style>
+
+    #skipLeft { left: 15%; }
+    #skipRight { right: 15%; }
+    .show { opacity: 1; transform: translateY(-50%) scale(1.3); }
+  </style>
 </head>
+
 <body>
+  <div id="videoTitle"></div>
 
-<!-- TOP BAR -->
-<div class="topbar">
-    <button onclick="history.back()" class="text-blue-300 text-2xl">
-        <i class="fa-solid fa-arrow-left"></i>
-    </button>
+  <media-theme-sutro id="videoContainer">
+    <hls-video id="player" slot="media" playsinline crossorigin="anonymous"
+      poster="https://i.postimg.cc/6Q9KB2fb/Q.png"></hls-video>
+  </media-theme-sutro>
 
-    <h2 id="videoTitle" class="text-lg font-semibold glow"></h2>
-
-    <div class="w-8"></div>
-</div>
-
-<!-- VIDEO PLAYER -->
-<video id="player" controls autoplay></video>
+  <div id="skipLeft" class="skip-overlay">«</div>
+  <div id="skipRight" class="skip-overlay">»</div>
 
 <script>
-
-// Read URL parameters
-const params = new URLSearchParams(window.location.search);
-
-const inst     = params.get("institute");
-const batch    = params.get("batch");
-const subject  = params.get("subject");
-const chapter  = params.get("chapter");
-const lecture  = params.get("lecture");     // expecting lec1, lec2, lec3
+/* -----------------------------
+   URL PARAMS
+------------------------------*/
+const params = new URLSearchParams(location.search);
 const directLink = params.get("link");
 
-// Video element
+const inst = params.get("institute");
+const batch = params.get("batch");
+const subject = params.get("subject");
+const chapter = params.get("chapter");
+const lecture = params.get("lecture");
+
 const player = document.getElementById("player");
+const titleBox = document.getElementById("videoTitle");
 
 
-// If ?link= exists → play directly
+/* -----------------------------
+   PLAY VIA DIRECT M3U8 LINK
+------------------------------*/
 if (directLink) {
-    player.src = directLink;
-    document.getElementById("videoTitle").innerText = "Now Playing";
+  player.src = directLink;
+  titleBox.textContent = "Now Playing";
 } else {
-    loadFromJSON();
+  loadLectureFromLocalJSON();
 }
 
 
-async function loadFromJSON() {
-    try {
-        const res = await fetch("data/content.json");
-        const data = await res.json();
+/* -----------------------------
+   LOAD LECTURE FROM LOCAL JSON SYSTEM
+------------------------------*/
+async function loadLectureFromLocalJSON() {
+  try {
+    // 1. Load content.json (where GitHub/local sources are stored)
+    const res1 = await fetch("data/content.json?" + Date.now());
+    const sourceData = await res1.json();
 
-        // Validate institute
-        if (!data[inst]) {
-            alert("Invalid Institute ID");
-            return;
-        }
-
-        // Validate batch
-        if (!data[inst][batch]) {
-            alert("Invalid Batch ID");
-            return;
-        }
-
-        // Validate subject
-        if (!data[inst][batch][subject]) {
-            alert("Invalid Subject ID");
-            return;
-        }
-
-        const subjectData = data[inst][batch][subject];
-
-        // Get chapter
-        const chapterData = subjectData.chapters.find(c => c.id === chapter);
-        if (!chapterData) {
-            alert("Chapter Not Found");
-            return;
-        }
-
-        // Get videos array
-        const videos = chapterData.videos;
-
-        // Find lecture by ID
-        let selected = videos.find(v => v.id === lecture);
-
-        // Fallback if invalid
-        if (!selected) {
-            selected = videos[0];  // play first
-        }
-
-        // Set video + title
-        player.src = selected.play;
-        document.getElementById("videoTitle").innerText = selected.title;
-
-    } catch (error) {
-        console.log(error);
-        alert("Error fetching content.json");
+    const subjectSource = sourceData[inst]?.[batch]?.[subject]?.source;
+    if (!subjectSource) {
+      alert("Subject Source Missing");
+      return;
     }
+
+    // 2. Load subject file
+    const res2 = await fetch(subjectSource + "?" + Date.now());
+    const contentFile = await res2.json();
+
+    const chapterData = contentFile.chapters.find(c => c.id === chapter);
+    if (!chapterData) {
+      alert("Chapter Not Found");
+      return;
+    }
+
+    const videoData = chapterData.videos.find(v => v.id === lecture);
+    if (!videoData) {
+      alert("Lecture Not Found");
+      return;
+    }
+
+    // 3. Apply video
+    player.src = videoData.play;
+    titleBox.textContent = videoData.title;
+
+  } catch (error) {
+    console.log(error);
+    alert("Error loading lecture");
+  }
 }
 
+
+/* -----------------------------
+   DOUBLE TAP GESTURES
+------------------------------*/
+const container = document.getElementById("videoContainer");
+const skipLeft = document.getElementById("skipLeft");
+const skipRight = document.getElementById("skipRight");
+
+let lastTap = 0;
+
+container.addEventListener("pointerdown", (e) => {
+  if (e.target.closest("button") || e.target.closest("media-control")) return;
+
+  const now = Date.now();
+  const diff = now - lastTap;
+  const rect = container.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const mid = rect.width / 2;
+
+  if (diff < 300) {
+    if (x > mid) {
+      player.currentTime += 10;
+      show(skipRight);
+    } else {
+      player.currentTime -= 10;
+      show(skipLeft);
+    }
+  }
+
+  lastTap = now;
+});
+
+function show(el) {
+  el.classList.add("show");
+  setTimeout(() => el.classList.remove("show"), 400);
+}
 </script>
 
 </body>
