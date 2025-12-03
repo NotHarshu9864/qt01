@@ -3,11 +3,11 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "",
+      "title": "Development",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
+          "title": "Lecture 1",
           "play": "https://youtu.be/CTFuXmQsVdA",
           "notes": ""
         }
@@ -15,7 +15,7 @@
     },
     {
       "id": "ch2",
-      "title": "",
+      "title": "Resources and Development",
       "videos": [
         {
           "id": "lec1",
@@ -27,7 +27,7 @@
     },
     {
       "id": "ch3",
-      "title": "",
+      "title": "Power Sharing",
       "videos": [
         {
           "id": "lec1",
@@ -39,7 +39,7 @@
     },
     {
       "id": "ch4",
-      "title": "",
+      "title": "The Rise of Nationalism in Europe",
       "videos": [
         {
           "id": "lec1",
@@ -51,7 +51,7 @@
     },
     {
       "id": "ch5",
-      "title": "",
+      "title": "Forest and Wildlife Resources",
       "videos": [
         {
           "id": "lec1",
@@ -63,7 +63,7 @@
     },
     {
       "id": "ch6",
-      "title": "",
+      "title": "Sectors of the Indian Economy",
       "videos": [
         {
           "id": "lec1",
@@ -75,7 +75,7 @@
     },
     {
       "id": "ch7",
-      "title": "",
+      "title": "Federalism",
       "videos": [
         {
           "id": "lec1",
@@ -87,7 +87,7 @@
     },
     {
       "id": "ch8",
-      "title": "",
+      "title": "Nationalism in India",
       "videos": [
         {
           "id": "lec1",
@@ -99,7 +99,7 @@
     },
     {
       "id": "ch9",
-      "title": "",
+      "title": "Water Resources",
       "videos": [
         {
           "id": "lec1",
@@ -111,7 +111,7 @@
     },
     {
       "id": "ch10",
-      "title": "",
+      "title": "Gen",
       "videos": [
         {
           "id": "lec1",
