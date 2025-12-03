@@ -1,0 +1,90 @@
+{
+  "subject": "maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Real Number",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch2",
+      "title": "Polynomials",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch3",
+      "title": "Pair of Linear Equation in two Variables",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch4",
+      "title": "Trigonometry",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch5",
+      "title": "Some Applications of Trigonometry",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch6",
+      "title": "Quadratic Equations",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch7",
+      "title": "AP",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch8",
+      "title": "Coordinate Geometry",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch9",
+      "title": "Triangles",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch10",
+      "title": "Circles",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch11",
+      "title": "Area Related to Circles",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch12",
+      "title": "Surface Area and Volume",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch13",
+      "title": "Statistics",
+      "videos": [
+      
+      ],
+    {
+      "id": "ch14",
+      "title": "Probability",
+      "videos": [
+     
+      ]
+    }
+  ]
+}
