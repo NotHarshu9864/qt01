@@ -1,0 +1,41 @@
+{
+  "subject": "science",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Physics",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch2",
+      "title": "Chemistry",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch3",
+      "title": "Biology",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
