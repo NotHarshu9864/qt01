@@ -1,0 +1,167 @@
+{
+  "subject": "it",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "IT Introduction",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch2",
+      "title": "Self Management Skills",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch3",
+      "title": "ICT Skills",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch4",
+      "title": "Communication Skills",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch5",
+      "title": "IT & AI Doubt Class",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch6",
+      "title": "Entrepreneural Skills",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch7",
+      "title": "Green Skills",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch8",
+      "title": "Digital Documentation",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
+    }
+  ]
+}
