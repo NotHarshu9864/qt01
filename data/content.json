@@ -29,16 +29,16 @@
         "source": "data/NT80/v9/maths.json"
       },
       "sst": {
-        "source": ""
+        "source": "data/NT80/v9/sst.json"
       },
       "english": {
-        "source": ""
+        "source": "data/NT80/v9/english.json"
       },
       "hindi": {
-        "source": ""
+        "source": "data/NT80/v9/hindi.json"
       },
       "it": {
-        "source": ""
+        "source": "data/NT80/v9/it.json"
       }
     },
     "v11": {
