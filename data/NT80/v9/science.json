@@ -5,13 +5,523 @@
       "id": "ch1",
       "title": "Motion",
       "videos": [
-        {
+       {
           "id": "lec1",
-          "title": "Lecture 1 ",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec7",
+          "title": "Lecture 7",
           "play": "",
           "notes": ""
         }
-      ]
+]
+    },
+    {
+      "id": "ch2",
+      "title": "Matter in our Surroundings",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch3",
+      "title": "Is Matter Around Us Pure?",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch4",
+      "title": "The Fundamental Unit of Life",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch5",
+      "title": "Force and Laws of Motion",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch6",
+      "title": "Tissue",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch7",
+      "title": "Gravitation",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch8",
+      "title": "Atoms and Molecules",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch9",
+      "title": "Work, Power, and Energy",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch10",
+      "title": "Revision Class",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Revision Class",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch11",
+      "title": "Improvement in Food Resources",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 9",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch12",
+      "title": "Structure of Atom",
+      "videos": [    
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec6",
+          "title": "Lecture 9",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch13",
+      "title": "Sound",
+      "videos": [
+      {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec5",
+          "title": "Last Class of Science",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch14",
+      "title": "Practice Questions",
+      "videos": [
+      {
+          "id": "lec1",
+          "title": "Practice Questions",
+          "play": "",
+          "notes": ""
+        }       
+]
     }
   ]
 }
