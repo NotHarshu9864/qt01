@@ -7,8 +7,458 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Polynomials",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Coordinate Geometry",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Linear Equations in Two Variables",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Lines and Angles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Triangles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Euclids Geometry",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Herons Formula",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "Quadrilaterals",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "Circles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Statistics",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "Surface Areas and Volume",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "",
+          "notes": ""
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "",
           "notes": ""
         }
       ]
