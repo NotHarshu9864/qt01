@@ -60,6 +60,17 @@
       "maths": {
         "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/maths.json"
       }
+    "vv9": {
+      "scinece": {
+        "source": "data/NT80/vv11/science.json"
+      },
+      "maths": {
+        "source": "data/NT80/vv11/maths.json"
+      },
+      "applied-maths": {
+        "source": "data/NT80/vv11/applied-maths.json"
+      }
+    },
     },
     "v12": {
       "business-studies": {
