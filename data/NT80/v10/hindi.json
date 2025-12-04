@@ -3,39 +3,88 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "hurrr",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 – Introduction",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4511223/175413794628705373082/index_4.m3u8",
-          "notes": "https://youtube.com"
-        }
-      ]
+      "title": "पाठ 11 — यतींद्र मिश्र (नौबतखाने में इबादत)",
+      "videos": []
     },
     {
       "id": "ch2",
-      "title": "IDK",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 – Introduction",
-          "play": "https://example.com/lec1.m3u8",
-          "notes": "https://example.com/n1.pdf"
-        }
-      ]
+      "title": "पाठ 10 — मन्नू भंडारी (एक कहानी यह भी)",
+      "videos": []
     },
-   {
+    {
       "id": "ch3",
-      "title": "TEST",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 – Introduction",
-          "play": "https://example.com/lec1.m3u8",
-          "notes": "https://example.com/n1.pdf"
-        }
-      ]
-    } 
+      "title": "पाठ 9 — यशपाल (लखनवी अंदाज़)",
+      "videos": []
+    },
+    {
+      "id": "ch4",
+      "title": "पाठ 6 — मंगलेश डबराल (संगतकार)",
+      "videos": []
+    },
+    {
+      "id": "ch5",
+      "title": "पाठ 5 — नागार्जुन (यह दंतुरित मुसकान, फसल)",
+      "videos": []
+    },
+    {
+      "id": "ch6",
+      "title": "पाठ 8 — रामवृक्ष बेनीपुरी (बालगोबिन भगत)",
+      "videos": []
+    },
+    {
+      "id": "ch7",
+      "title": "पाठ 4 — उत्साह, अट नहीं रही है",
+      "videos": []
+    },
+    {
+      "id": "ch8",
+      "title": "स्वयं प्रकाश (नेताजी का चश्मा)",
+      "videos": []
+    },
+    {
+      "id": "ch9",
+      "title": "आत्मकथ्य",
+      "videos": []
+    },
+    {
+      "id": "ch10",
+      "title": "राम - लक्ष्मण - परशुराम संवाद",
+      "videos": []
+    },
+    {
+      "id": "ch11",
+      "title": "पाठ 1 — सूरदास पद",
+      "videos": []
+    },
+    {
+      "id": "ch12",
+      "title": "पाठ 3 — अज्ञेय (मैं क्यों लिखता हूँ)",
+      "videos": []
+    },
+    {
+      "id": "ch13",
+      "title": "पाठ 2 — मधु कांकरिया (साना-साना हाथ जोड़ि)",
+      "videos": []
+    },
+    {
+      "id": "ch14",
+      "title": "कृतिका भाग 2 — पाठ 1 माता का अँचल",
+      "videos": []
+    },
+    {
+      "id": "ch15",
+      "title": "Hindi Doubt Class",
+      "videos": []
+    },
+    {
+      "id": "ch16",
+      "title": "रचनात्मक लेखन",
+      "videos": []
+    },
+    {
+      "id": "ch17",
+      "title": "व्याकरण",
+      "videos": []
+    }
   ]
 }
