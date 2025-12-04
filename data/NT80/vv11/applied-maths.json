@@ -1,0 +1,17 @@
+{
+  "subject": "applied-maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Sets & Relation",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://www.youtube.com/watch?v=0YgA8v-9iMk",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
