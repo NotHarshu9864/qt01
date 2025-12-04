@@ -1,0 +1,496 @@
+{
+  "subject": "english",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Glimpses of India - Coorg",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch2",
+      "title": "Glimpses of India - A Baker from Goa",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch3",
+      "title": "Amanda",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        },       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch4",
+      "title": "From the Diary of Anne Frank",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch5",
+      "title": "How to Tell Wild Animals",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch6",
+      "title": "Two Stories about Flying",
+      "videos": [
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch7",
+      "title": "The Ball Poem",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch8",
+      "title": "Tiger in the Zoo",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch9",
+      "title": "Nelson Mandela",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch10",
+      "title": "Fire & Ice",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch11",
+      "title": "Dust of Snow",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch12",
+      "title": "Letter to God",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch13",
+      "title": "A Question of Trust",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch14",
+      "title": "The Midnight Visitor",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch15",
+      "title": "The Thief Story",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch16",
+      "title": "A Triumph of Surgery",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch17",
+      "title": "Reported Speech",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch18",
+      "title": "Subject-Verb Concord",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch19",
+      "title": "Clauses",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch20",
+      "title": "Modals",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch21",
+      "title": "Determiners",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch22",
+      "title": "Tenses",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch23",
+      "title": "Poetic Devices",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch24",
+      "title": "Email Writing",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch25",
+      "title": "Article Writing",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch26",
+      "title": "Formal Letter",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch27",
+      "title": "Reading Comprehension",
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        }
+]
+    },
+    {
+      "id": "ch28",
+      "title": "English Doubt Class",
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+]
+    }
+  ]
+}
