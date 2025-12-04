@@ -4,87 +4,488 @@
     {
       "id": "ch1",
       "title": "पाठ 11 — यतींद्र मिश्र (नौबतखाने में इबादत)",
-      "videos": []
+      "videos": [
+     {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch2",
       "title": "पाठ 10 — मन्नू भंडारी (एक कहानी यह भी)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch3",
       "title": "पाठ 9 — यशपाल (लखनवी अंदाज़)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch4",
       "title": "पाठ 6 — मंगलेश डबराल (संगतकार)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch5",
       "title": "पाठ 5 — नागार्जुन (यह दंतुरित मुसकान, फसल)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch6",
       "title": "पाठ 8 — रामवृक्ष बेनीपुरी (बालगोबिन भगत)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch7",
       "title": "पाठ 4 — उत्साह, अट नहीं रही है",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch8",
       "title": "स्वयं प्रकाश (नेताजी का चश्मा)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch9",
       "title": "आत्मकथ्य",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch10",
       "title": "राम - लक्ष्मण - परशुराम संवाद",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch11",
       "title": "पाठ 1 — सूरदास पद",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch12",
       "title": "पाठ 3 — अज्ञेय (मैं क्यों लिखता हूँ)",
-      "videos": []
+      "videos": 
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+[]
     },
     {
       "id": "ch13",
       "title": "पाठ 2 — मधु कांकरिया (साना-साना हाथ जोड़ि)",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch14",
       "title": "कृतिका भाग 2 — पाठ 1 माता का अँचल",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch15",
       "title": "Hindi Doubt Class",
-      "videos": []
+      "videos": [
+       {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch16",
       "title": "रचनात्मक लेखन",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     },
     {
       "id": "ch17",
       "title": "व्याकरण",
-      "videos": []
+      "videos": [
+    {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": ""
+        },
+     {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "",
+          "notes": ""
+        }
+]
     }
   ]
 }
