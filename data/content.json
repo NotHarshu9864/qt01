@@ -60,6 +60,7 @@
       "maths": {
         "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/maths.json"
       }
+},
     "vv11": {
       "scinece": {
         "source": "data/NT80/vv11/science.json"
