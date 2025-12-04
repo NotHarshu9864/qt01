@@ -4,87 +4,72 @@
     {
       "id": "ch1",
       "title": "Real Number",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch2",
       "title": "Polynomials",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch3",
       "title": "Pair of Linear Equation in two Variables",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch4",
       "title": "Trigonometry",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch5",
       "title": "Some Applications of Trigonometry",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch6",
       "title": "Quadratic Equations",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch7",
       "title": "AP",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch8",
       "title": "Coordinate Geometry",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch9",
       "title": "Triangles",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch10",
       "title": "Circles",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch11",
       "title": "Area Related to Circles",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch12",
       "title": "Surface Area and Volume",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch13",
       "title": "Statistics",
-      "videos": [
-      
-      ],
+      "videos": []
+    },
     {
       "id": "ch14",
       "title": "Probability",
-      "videos": [
-     
-      ]
+      "videos": []
     }
   ]
 }
