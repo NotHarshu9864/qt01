@@ -1,5 +1,22 @@
 {
   "NT80": {
+  "vv11": [
+      {
+        "name": "Mathematics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11&subject=maths"
+      },
+      {
+        "name": "Science",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11&subject=science"
+      },
+      {
+        "name": "Applied Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11&subject=applied-maths"
+      }
+    ],
     "v10": [
       {
         "name": "Mathematics",
