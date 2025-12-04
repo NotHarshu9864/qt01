@@ -22,23 +22,23 @@
     },
 
     "v9": {
-      "scinece": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/science.json"
+      "science": {
+        "source": "data/NT80/v9/science.json"
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/maths.json"
+        "source": ""
       },
       "sst": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/sst.json"
+        "source": ""
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/english.json"
+        "source": ""
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/hindi.json"
+        "source": ""
       },
       "it": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v9/it.json"
+        "source": ""
       }
     },
     "v11": {
