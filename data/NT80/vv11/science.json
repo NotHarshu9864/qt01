@@ -7,9 +7,9 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
-          "notes": ""
+          "title": "Unit and Measurement | L-1",
+          "play": "https://www.youtube.com/watch?v=qSnAWs8xVBs",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/163687675514392220.pdf"
         }
       ]
     },
@@ -19,9 +19,15 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
-          "notes": ""
+          "title": "Some Basic Concept of Chemistry | L-1",
+          "play": "https://www.youtube.com/watch?v=TWkndUZ8jnc",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/865622622267075700.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Some Basic Concept of Chemistry | L-2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618733/176477986259592764802/176477986259592764802_2764802.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/696438967035530900.pdf"
         }
       ]
     },
@@ -31,9 +37,15 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
-          "notes": ""
+          "title": "Living World | L-1",
+          "play": "https://www.youtube.com/watch?v=RFP9qyEG-NU",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/394118705522861950.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Living World | Practice Session",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618527/176476501137013740487/176476501137013740487_3740487.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/215772858483183650.pdf"
         }
       ]
     }
