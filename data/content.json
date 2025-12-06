@@ -29,7 +29,7 @@
         "source": "data/NT80/vv11c/maths.json"
       },
       "applied-maths": {
-        "source": "data/NT80/vv11c/applied-maths.json"
+        "source": "data/NT80/vv11c/am.json"
       },
       "accounts": {
         "source": "data/NT80/vv11c/acc.json"
