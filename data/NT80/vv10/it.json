@@ -1,0 +1,17 @@
+{
+  "subject": "it",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Introduction",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4618645/1764772363_7968967796390345/sunny/1764772345713_600238072661614700_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
