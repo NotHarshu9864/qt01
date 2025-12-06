@@ -17,6 +17,33 @@
         "link": "content.html?institute=NT80&batch=vv11&subject=applied-maths"
       }
     ],
+  "vv11c": [
+      {
+        "name": "Mathematics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11c&subject=maths"
+      },
+      {
+        "name": "Accounts",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11c&subject=accounts"
+      },
+      {
+        "name": "Applied Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11c&subject=applied-maths"
+      },
+     {
+        "name": "Business Studies",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11c&subject=business-studies"
+      },
+     {
+        "name": "Economics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv11c&subject=economics"
+      }
+    ],
     "v10": [
       {
         "name": "Mathematics",
