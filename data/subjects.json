@@ -265,4 +265,24 @@
       }
     ]
   }
+
+  "PA50": {
+   "pa10": [
+       {
+        "name": "SST",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PA50&batch=pa10&subject=sst"
+      },
+     {
+        "name": "Science",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PA50&batch=pa10&subject=science"
+      },
+     {
+        "name": "Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PA50&batch=pa10&subject=maths"
+      }
+    ]
+  }
 }
