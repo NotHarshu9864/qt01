@@ -1,0 +1,29 @@
+{
+  "subject": "science",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "The Fundamental Unit of Life",
+      "videos": [
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619476/176485277822528929414/index_2.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/657975539220300300.pdf"
+        }
+      ]
+    },
+   {
+      "id": "ch2",
+      "title": "Matter in our Surroundings",
+      "video": [
+        {
+          "id": "lec2",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619634/176486664557011747630/index_2.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
