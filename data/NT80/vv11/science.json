@@ -10,6 +10,18 @@
           "title": "Unit and Measurement | L-1",
           "play": "https://www.youtube.com/watch?v=qSnAWs8xVBs",
           "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/163687675514392220.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Motion in a Straight Line | L-1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619638/176486719864845910848/index_3.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/719657090749789300.pdf"
+        },
+       {
+          "id": "lec3",
+          "title": "Motion in a plane | L-1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620613/176494097483145910848/index_3.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/627148243332654300.pdf"
         }
       ]
     },
@@ -28,6 +40,12 @@
           "title": "Some Basic Concept of Chemistry | L-2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618733/176477986259592764802/176477986259592764802_2764802.m3u8",
           "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/696438967035530900.pdf"
+        },
+       {
+          "id": "lec3",
+          "title": "Structure of Atom | L-1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619499/176485451660322764802/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/325291847317201000.pdf"
         }
       ]
     },
@@ -46,6 +64,12 @@
           "title": "Living World | Practice Session",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618527/176476501137013740487/176476501137013740487_3740487.m3u8",
           "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/215772858483183650.pdf"
+        },
+       {
+          "id": "lec3",
+          "title": "Biological Classification",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620753/176495276819933740487/index_3.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/196852516949013150.pdf"
         }
       ]
     }
