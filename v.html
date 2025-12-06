@@ -97,8 +97,16 @@
 </div>
 
 <script>
-  const initialUrl = "";
   const backendQuals = [];
+
+// ---- AUTO FETCH M3U8 FROM URL PARAM ---- //
+function getURLParam(name) {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(name);
+}
+
+const urlParam = getURLParam("url");
+let initialUrl = urlParam ? decodeURIComponent(urlParam) : "";
 
   const video = document.getElementById("video");
   const qualitySelect = document.getElementById("qualitySelect");
