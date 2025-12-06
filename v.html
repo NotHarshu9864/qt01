@@ -1,442 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>QuickToppers Live</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuickToppers Player</title>
 
-  <!-- Tailwind CDN (playground) -->
-  <script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- HLS.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<!-- Plyr CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.8/plyr.css" />
 
-  <style>
-    /* small extra styles for icon shapes */
-    .play-triangle {
-      width: 0;
-      height: 0;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-left: 18px solid rgba(14,165,233,1); /* cyan */
+<style>
+    body {
+        background: #020617; /* slate-950 */
     }
-    .pause-rect {
-      display: inline-block;
-      width: 10px;
-      height: 24px;
-      background: rgba(14,165,233,1);
-      box-shadow: none;
-      margin-right: 6px;
+    video {
+        border-radius: 12px;
     }
-    .pause-rect::after {
-      content: "";
-      display: inline-block;
-      width: 10px;
-      height: 24px;
-      background: rgba(14,165,233,1);
-      margin-left: 6px;
-    }
-  </style>
+</style>
 </head>
-<body class="bg-gradient-to-b from-slate-900 via-slate-950 to-black min-h-screen flex items-center justify-center p-6">
 
-  <div class="w-full max-w-5xl">
-    <div class="bg-slate-900/70 border border-cyan-600/20 rounded-2xl shadow-2xl p-5 backdrop-blur">
-      <!-- Header -->
-      <div class="flex items-center justify-between mb-4">
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-500 flex items-center justify-center text-slate-900 font-bold text-lg">QT</div>
-          <div>
-            <h1 class="text-cyan-300 text-xl font-semibold">QuickToppers Live</h1>
-            <p class="text-slate-400 text-sm">HLS player · paste <code class="bg-slate-800 px-2 py-0.5 rounded text-xs">?url=YOUR_M3U8</code> in address bar</p>
-          </div>
-        </div>
+<body class="min-h-screen flex items-center justify-center p-4">
 
-        <div id="playerMessage" class="text-sm text-amber-300"></div>
-      </div>
+<!-- MAIN CARD -->
+<div class="w-full max-w-4xl bg-slate-900/60 backdrop-blur-2xl shadow-xl rounded-2xl p-6 border border-cyan-600/30">
 
-      <!-- Player -->
-      <div class="rounded-lg overflow-hidden bg-black relative shadow-inner">
-        <!-- video area (bigger) -->
-        <div id="videoContainer" class="relative bg-black aspect-[16/9]">
-          <video id="video" class="w-full h-full object-cover bg-black" playsinline></video>
-
-          <!-- overlay big play -->
-          <button id="bigPlay" aria-label="Play" class="absolute inset-0 m-auto w-full h-full flex items-center justify-center bg-black/30 transition-opacity duration-200 focus:outline-none">
-            <div id="bigPlayInner" class="flex items-center gap-3 px-6 py-4 bg-black/60 border border-cyan-500/40 rounded-full backdrop-blur">
-              <div id="bigPlayIcon" class="play-triangle"></div>
-              <div class="text-cyan-200 font-medium">Play</div>
-            </div>
-          </button>
-        </div>
-
-        <!-- controls bar -->
-        <div class="px-4 py-3 bg-gradient-to-t from-black/70 to-transparent border-t border-cyan-800/20">
-          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
-
-            <!-- left controls -->
-            <div class="flex items-center gap-3 flex-wrap">
-              <div class="flex items-center gap-2 bg-slate-800/60 px-3 py-1 rounded-full border border-slate-700 text-sm">
-                <span id="currentTime" class="font-mono text-slate-200">00:00</span>
-                <span class="text-slate-400">/</span>
-                <span id="duration" class="font-mono text-slate-400">00:00</span>
-              </div>
-
-              <div id="playPauseWrap" class="flex items-center gap-2">
-                <button id="playPauseBtn"
-                        class="flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/30 bg-slate-800/60 text-cyan-200 hover:bg-cyan-500/10 transition text-sm">
-                  <div id="playPauseIcon" class="play-triangle"></div>
-                  <span id="playPauseText">Play</span>
-                </button>
-              </div>
-
-              <div id="qualityWrap" class="hidden items-center gap-2 bg-slate-800/60 px-3 py-1 rounded-full border border-slate-700 text-sm">
-                <label for="qualitySelect" class="text-slate-300 text-sm">Quality</label>
-                <select id="qualitySelect" class="bg-transparent outline-none text-cyan-200 text-sm"></select>
-              </div>
-            </div>
-
-            <!-- right controls -->
-            <div class="flex items-center gap-3 flex-wrap">
-              <div class="flex items-center gap-2 bg-slate-800/60 px-3 py-1 rounded-full border border-slate-700 text-sm">
-                <label for="speedSelect" class="text-slate-300 text-sm">Speed</label>
-                <select id="speedSelect" class="bg-transparent outline-none text-cyan-200 text-sm">
-                  <option value="0.5">0.5x</option>
-                  <option value="0.75">0.75x</option>
-                  <option value="1" selected>1x</option>
-                  <option value="1.25">1.25x</option>
-                  <option value="1.5">1.5x</option>
-                  <option value="2">2x</option>
-                </select>
-              </div>
-
-              <div class="flex items-center gap-2 bg-slate-800/60 px-3 py-1 rounded-full border border-slate-700">
-                <label for="volumeRange" class="text-slate-300 text-sm">Vol</label>
-                <input id="volumeRange" type="range" min="0" max="1" step="0.05" value="1" class="w-28 accent-cyan-400">
-              </div>
-
-              <button id="fullscreenBtn" class="px-3 py-1 rounded-full border border-cyan-500/30 bg-slate-800/60 text-cyan-200 hover:bg-cyan-500/10 text-sm">
-                ⛶ Fullscreen
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- footer small note -->
-      <div class="mt-3 text-xs text-slate-400">
-        Tip: use <code class="bg-slate-800 px-2 py-0.5 rounded">?url=</code> in the address bar or pass pre-configured qualities by editing the page.
-      </div>
+    <!-- HEADER -->
+    <div class="flex items-center space-x-4 mb-6">
+        <img src="img/icon.jpg" class="w-12 h-12 rounded-lg shadow-lg border border-cyan-500/40" />
+        <h1 class="text-3xl font-bold text-cyan-400 tracking-wide">QuickToppers Player</h1>
     </div>
-  </div>
+
+    <!-- VIDEO CONTAINER -->
+    <div class="rounded-xl overflow-hidden shadow-2xl border border-slate-700">
+        <video id="player" playsinline controls></video>
+    </div>
+
+</div>
+
+<!-- Plyr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.8/plyr.min.js"></script>
+<!-- HLS -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <script>
-/* ---------------------------
-   QuickToppers HLS Player
-   - auto reads ?url= parameter
-   - uses hls.js levels to populate Quality selector
-   - play/pause overlay + control buttons
-   - muted autoplay attempt (unmute via volume slider)
-   --------------------------- */
-
-const DEFAULT_INITIAL = ""; // optional hardcoded fallback if you want
-
-// Elements
-const video = document.getElementById('video');
-const bigPlay = document.getElementById('bigPlay');
-const bigPlayIcon = document.getElementById('bigPlayIcon');
-const bigPlayText = document.getElementById('playPauseText'); // note: also used in small
-const playPauseBtn = document.getElementById('playPauseBtn');
-const playPauseIcon = document.getElementById('playPauseIcon');
-const currentTimeEl = document.getElementById('currentTime');
-const durationEl = document.getElementById('duration');
-const qualitySelect = document.getElementById('qualitySelect');
-const qualityWrap = document.getElementById('qualityWrap');
-const speedSelect = document.getElementById('speedSelect');
-const volumeRange = document.getElementById('volumeRange');
-const fullscreenBtn = document.getElementById('fullscreenBtn');
-const playerMessage = document.getElementById('playerMessage');
-const videoContainer = document.getElementById('videoContainer');
-
-let hls = null;
-let levels = []; // from hls.levels
-let isManualPaused = false;
-
-// Utilities
-function getURLParam(name) {
-  const params = new URLSearchParams(window.location.search);
-  return params.get(name);
+// Fetch ?url=
+function getURL(key) {
+    return new URLSearchParams(window.location.search).get(key);
 }
 
-function fmt(s) {
-  if (!s || !isFinite(s)) return '00:00';
-  const m = Math.floor(s / 60).toString().padStart(2, '0');
-  const ss = Math.floor(s % 60).toString().padStart(2, '0');
-  return `${m}:${ss}`;
-}
+const videoURL = getURL("url");
+const video = document.getElementById("player");
 
-function showMessage(msg, color='text-amber-300') {
-  playerMessage.innerText = msg || '';
-  playerMessage.className = color;
-  if (!msg) playerMessage.className = '';
-}
+if (!videoURL) {
+    alert("No video URL found. Please use ?url=yourlink.m3u8");
+} else {
+    if (Hls.isSupported()) {
+        const hls = new Hls({
+            maxBufferLength: 30,
+            maxBufferSize: 60 * 1000 * 1000,
+        });
 
-// Load URL
-const urlParam = getURLParam('url');
-const initialUrl = urlParam ? decodeURIComponent(urlParam) : (DEFAULT_INITIAL || '');
+        hls.loadSource(videoURL);
+        hls.attachMedia(video);
 
-if (!initialUrl) {
-  showMessage('No ?url= found — add an m3u8 link to play', 'text-rose-400');
-}
+        hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+            const available = hls.levels.map((l) => l.height);
 
-// Setup initial volume + muted autoplay attempt
-video.volume = parseFloat(volumeRange.value || 1);
-video.muted = true; // allow autoplay attempt in many browsers
+            const player = new Plyr(video, {
+                controls: [
+                    'play-large', 'play', 'progress', 
+                    'current-time', 'mute', 'volume',
+                    'settings', 'fullscreen'
+                ],
+                settings: ['quality', 'speed'],
+                quality: {
+                    default: available[0],
+                    options: available,
+                    forced: true,
+                    onChange: (q) => {
+                        hls.levels.forEach((level, index) => {
+                            if (level.height === q) hls.currentLevel = index;
+                        });
+                    },
+                },
+            });
+        });
 
-// HLS load function
-function destroyHls() {
-  if (hls) {
-    try { hls.destroy(); } catch(e) {}
-    hls = null;
-    levels = [];
-  }
-}
-
-function populateQuality(levelsArray) {
-  // levelsArray is hls.levels
-  qualitySelect.innerHTML = '';
-  // Auto
-  const autoOpt = document.createElement('option');
-  autoOpt.value = 'auto';
-  autoOpt.textContent = 'Auto';
-  qualitySelect.appendChild(autoOpt);
-
-  levelsArray.forEach((l, idx) => {
-    const label = l.height ? `${l.height}p` : (l.name || `${Math.round((l.bitrate||0)/1000)}kbps`);
-    const opt = document.createElement('option');
-    opt.value = String(idx);
-    opt.textContent = label;
-    qualitySelect.appendChild(opt);
-  });
-
-  qualityWrap.classList.remove('hidden');
-}
-
-function attachHls(url) {
-  destroyHls();
-  if (!url) return;
-
-  if (Hls.isSupported()) {
-    hls = new Hls({ enableWorker: true, lowLatencyMode: true });
-    hls.loadSource(url);
-    hls.attachMedia(video);
-
-    hls.on(Hls.Events.MANIFEST_PARSED, (event, data) => {
-      levels = hls.levels || [];
-      if (levels.length) {
-        populateQuality(levels);
-      } else {
-        qualityWrap.classList.add('hidden');
-      }
-      // Try autoplay (muted). If fails, user can click play.
-      video.play().then(()=> {
-        // autoplay succeeded
-        video.muted = false; // unmute automatically on success for better UX (optional)
-        showMessage('');
-      }).catch(() => {
-        // autoplay blocked: leave muted and show play overlay
-        video.muted = true;
-        showMessage('Tap Play to start (autoplay blocked)', 'text-amber-300');
-      });
-    });
-
-    hls.on(Hls.Events.ERROR, (evt, data) => {
-      console.warn('HLS error', data);
-      if (data && data.fatal) {
-        showMessage('Stream error: fallback / try another quality', 'text-rose-400');
-        // try to recover
-        try {
-          switch (data.type) {
-            case Hls.ErrorTypes.NETWORK_ERROR:
-              hls.startLoad();
-              break;
-            case Hls.ErrorTypes.MEDIA_ERROR:
-              hls.recoverMediaError();
-              break;
-            default:
-              destroyHls();
-              break;
-          }
-        } catch (e) {
-          destroyHls();
-        }
-      }
-    });
-
-    // reflect level change to select
-    hls.on(Hls.Events.LEVEL_SWITCHED, (evt, data) => {
-      const level = data.level;
-      // set select to matched index (if not auto)
-      qualitySelect.value = (hls.currentLevel === -1) ? 'auto' : String(hls.currentLevel);
-    });
-
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Safari native HLS
-    video.src = url;
-    video.addEventListener('loadedmetadata', () => {
-      video.play().catch(()=>{ showMessage('Tap Play to start', 'text-amber-300'); });
-    });
-    qualityWrap.classList.add('hidden');
-  } else {
-    showMessage('This browser does not support HLS', 'text-rose-400');
-  }
-}
-
-// Try to attach on load if URL present
-if (initialUrl) {
-  attachHls(initialUrl);
-}
-
-// Controls behavior
-function togglePlay() {
-  if (video.paused) {
-    video.play().then(()=> {
-      isManualPaused = false;
-      updatePlayUI(true);
-      showMessage('');
-    }).catch(()=> {
-      // maybe muted autoplay blocked; ensure muted and show overlay
-      showMessage('Play blocked — user interaction required', 'text-amber-300');
-    });
-  } else {
-    video.pause();
-    isManualPaused = true;
-    updatePlayUI(false);
-  }
-}
-
-function updatePlayUI(isPlaying) {
-  const playText = isPlaying ? 'Pause' : 'Play';
-  const playIcon = document.getElementById('playPauseIcon');
-  const bigIcon = document.getElementById('bigPlayIcon');
-  // small button icon
-  if (isPlaying) {
-    // show pause
-    playPauseIcon.className = '';
-    playPauseIcon.innerHTML = '';
-    playPauseIcon.classList.add('pause-rect');
-    // big icon
-    bigIcon.className = 'pause-rect';
-  } else {
-    // show play
-    playPauseIcon.className = '';
-    playPauseIcon.innerHTML = '';
-    playPauseIcon.classList.add('play-triangle');
-    bigIcon.className = 'play-triangle';
-  }
-  document.getElementById('playPauseText').innerText = playText;
-  // overlay visibility
-  if (isPlaying) {
-    bigPlay.classList.add('hidden');
-  } else {
-    bigPlay.classList.remove('hidden');
-  }
-}
-
-bigPlay.addEventListener('click', (e) => {
-  e.preventDefault();
-  togglePlay();
-});
-
-playPauseBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  togglePlay();
-});
-
-// update times
-video.addEventListener('timeupdate', () => {
-  currentTimeEl.textContent = fmt(video.currentTime);
-});
-video.addEventListener('loadedmetadata', () => {
-  durationEl.textContent = fmt(video.duration);
-});
-
-// keyboard space toggle
-document.addEventListener('keydown', (e) => {
-  if (e.code === 'Space' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-    e.preventDefault();
-    togglePlay();
-  }
-});
-
-// quality switching
-qualitySelect.addEventListener('change', () => {
-  const v = qualitySelect.value;
-  if (!hls) return;
-  if (v === 'auto') {
-    hls.currentLevel = -1; // auto
-  } else {
-    const idx = parseInt(v, 10);
-    if (!isNaN(idx)) {
-      hls.currentLevel = idx;
+    } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        video.src = videoURL;
+        const player = new Plyr(video);
     }
-  }
-});
-
-// speed
-speedSelect.addEventListener('change', () => {
-  video.playbackRate = parseFloat(speedSelect.value);
-});
-
-// volume slider (also unmute if user increases)
-volumeRange.addEventListener('input', () => {
-  const val = parseFloat(volumeRange.value);
-  video.volume = val;
-  if (val > 0) {
-    video.muted = false;
-  } else {
-    video.muted = true;
-  }
-});
-
-// fullscreen
-fullscreenBtn.addEventListener('click', () => {
-  if (!document.fullscreenElement) {
-    videoContainer.requestFullscreen?.();
-  } else {
-    document.exitFullscreen?.();
-  }
-});
-
-// when native play/pause events happen update UI
-video.addEventListener('play', () => updatePlayUI(true));
-video.addEventListener('pause', () => updatePlayUI(false));
-
-// expose a small function to load a new URL dynamically (useful elsewhere)
-window.loadStream = function(streamUrl) {
-  if (!streamUrl) return;
-  attachHls(streamUrl);
-  showMessage('Loading stream...', 'text-cyan-300');
-};
-
-// If no URL was provided, keep big play visible and wait for user interaction.
-// You can also allow user to paste a link into prompt — optional quick helper:
-if (!initialUrl) {
-  bigPlay.addEventListener('click', (e) => {
-    e.preventDefault();
-    const link = prompt('Paste m3u8 URL to play (or Cancel):');
-    if (link) {
-      const clean = link.trim();
-      // update browser URL without reload (nice-to-have)
-      try {
-        const u = new URL(window.location.href);
-        u.searchParams.set('url', encodeURIComponent(clean));
-        history.replaceState({}, '', u.toString());
-      } catch (err) {}
-      attachHls(clean);
-      showMessage('Loading stream...', 'text-cyan-300');
-    }
-  }, { once: true });
 }
 </script>
 
