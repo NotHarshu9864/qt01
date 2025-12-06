@@ -1,0 +1,23 @@
+{
+  "subject": "business-studies",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Nature and Purpose of Business",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2 ",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
