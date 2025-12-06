@@ -1,0 +1,23 @@
+{
+  "subject": "maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Real Number",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://www.youtube.com/watch?v=LDVXKYFunQA",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620608/176494086496628752407/index_3.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
