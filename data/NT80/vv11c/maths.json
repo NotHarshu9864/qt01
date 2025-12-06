@@ -1,0 +1,23 @@
+{
+  "subject": "maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Sets",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://www.youtube.com/watch?v=2TiuasNA4wU",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619853/176491057595905373082/index_1.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
