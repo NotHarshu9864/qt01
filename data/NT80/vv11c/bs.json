@@ -8,14 +8,26 @@
         {
           "id": "lec1",
           "title": "Lecture 1 ",
-          "play": "",
-          "notes": ""
+          "play": "https://www.youtube.com/watch?v=J9QYAC-NS-U",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/797366005839726100.pdf"
         },
        {
           "id": "lec2",
           "title": "Lecture 2 ",
-          "play": "",
-          "notes": ""
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618604/176476929679162266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/539644055190483900.pdf"
+        }
+      ]
+    },
+  {
+      "id": "ch1",
+      "title": "Forms of business organisations",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620630/176494154716972266688/index_3.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/826098600189217500.pdf"
         }
       ]
     }
