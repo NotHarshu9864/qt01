@@ -1,0 +1,35 @@
+{
+  "subject": "accounts",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Introduction to Accounting",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/886530511564724900.pdf"
+        }
+      ]
+    },
+  {
+      "id": "ch2",
+      "title": "Accounting Equations",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/226740790177149220.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/595848861820584200.pdf"
+        },
+      ]
+    }
+  ]
+}
