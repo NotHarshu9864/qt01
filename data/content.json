@@ -21,7 +21,25 @@
       }
     },
 
-    "v9": {
+     "vv11c": {
+      "business-studies": {
+        "source": "data/NT80/vv11c/bs.json"
+      },
+      "maths": {
+        "source": "data/NT80/vv11c/maths.json"
+      },
+      "applied-maths": {
+        "source": "data/NT80/vv11c/applied-maths.json"
+      },
+      "accounts": {
+        "source": "data/NT80/vv11c/acc.json"
+      },
+      "economics": {
+        "source": "data/NT80/vv11c/eco.json"
+      }
+    },
+
+   "v9": {
       "science": {
         "source": "data/NT80/v9/science.json"
       },
