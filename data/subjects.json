@@ -190,16 +190,78 @@
   },
 
   "PW30": {
-    "alpha10": [
+    "pwp10": [
       {
         "name": "Physics",
         "thumbnail": "img/quick.jpg",
-        "link": "content.html?institute=PW30&batch=alpha10&subject=physics"
+        "link": "content.html?institute=PW30&batch=pwp10&subject=physics"
       },
       {
+        "name": "Biology",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp10&subject=biology"
+      },
+    {
         "name": "Chemistry",
         "thumbnail": "img/quick.jpg",
-        "link": "content.html?institute=PW30&batch=alpha10&subject=chemistry"
+        "link": "content.html?institute=PW30&batch=pwp10&subject=chemistry"
+      },
+    {
+        "name": "Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp10&subject=maths"
+      },
+    {
+        "name": "SST",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp10&subject=sst"
+      },
+    {
+        "name": "English",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp10&subject=english"
+      },
+    {
+        "name": "Hindi",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp10&subject=hindi"
+      }
+    ],
+   "pwp9": [
+      {
+        "name": "Physics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=physics"
+      },
+      {
+        "name": "Biology",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=biology"
+      },
+    {
+        "name": "Chemistry",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=chemistry"
+      },
+    {
+        "name": "Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=maths"
+      },
+    {
+        "name": "SST",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=sst"
+      },
+    {
+        "name": "English",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=english"
+      },
+    {
+        "name": "Hindi",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=PW30&batch=pwp9&subject=hindi"
       }
     ]
   }
