@@ -185,10 +185,53 @@
   },
 
   "PW30": {
-    "pw10": {
+    "pwp10": {
       "physics": {
-        "source": "https://cdn.jsdelivr.net/gh/HarshXD/QuickToppersDB/PW30/pw10/physics.json"
+        "source": "data/PW30/pwp10/physics.json"
+      },
+      "biology": {
+        "source": "data/PW30/pwp10/biology.json"
+      },
+      "chemistry": {
+        "source": "data/PW30/pwp10/chemistry.json"
+      },
+      "maths": {
+        "source": "data/PW30/pwp10/maths.json"
+      },
+      "sst": {
+        "source": "data/PW30/pwp10/sst.json"
+      },
+      "english": {
+        "source": "data/PW30/pwp10/english.json"
+      },
+      "hindi": {
+        "source": "data/PW30/pwp10/hindi.json"
       }
+
+    },
+   "pwp9": {
+      "physics": {
+        "source": "data/PW30/pwp9/physics.json"
+      },
+      "biology": {
+        "source": "data/PW30/pwp9/biology.json"
+      },
+      "chemistry": {
+        "source": "data/PW30/pwp9/chemistry.json"
+      },
+      "maths": {
+        "source": "data/PW30/pwp9/maths.json"
+      },
+      "sst": {
+        "source": "data/PW30/pwp9/sst.json"
+      },
+      "english": {
+        "source": "data/PW30/pwp9/english.json"
+      },
+      "hindi": {
+        "source": "data/PW30/pwp9/hindi.json"
+      }
+
     }
   }
     }
