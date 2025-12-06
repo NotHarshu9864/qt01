@@ -18,6 +18,24 @@
       }
     ],
 
+  "vv12": [
+      {
+        "name": "Mathematics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv12&subject=maths"
+      },
+      {
+        "name": "Science",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv12&subject=science"
+      },
+      {
+        "name": "Applied Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=vv12&subject=applied-maths"
+      }
+    ],
+
   "vv11c": [
       {
         "name": "Mathematics",
