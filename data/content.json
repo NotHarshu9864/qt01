@@ -89,6 +89,19 @@
         "source": "data/NT80/vv11/applied-maths.json"
       }
     },
+
+   "vv12": {
+      "science": {
+        "source": "data/NT80/vv12/science.json"
+      },
+      "maths": {
+        "source": "data/NT80/vv12/maths.json"
+      },
+      "applied-maths": {
+        "source": "data/NT80/vv12/applied-maths.json"
+      }
+    },
+
     "v12": {
       "business-studies": {
         "source": ""
