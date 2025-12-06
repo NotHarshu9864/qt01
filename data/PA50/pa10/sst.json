@@ -1,0 +1,41 @@
+{
+  "subject": "sst",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "History | Stage - 1",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Watch Now",
+          "play": "https://youtu.be/aWqGlseJT8E?si=KXIb1uYQmDv85_8r",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch2",
+      "title": "Civics | Stage - 2",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Watch Now",
+          "play": "https://youtu.be/rmnGe6uWEPQ?si=b-3maI5S6vC45Cos",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch3",
+      "title": "Geography | Stage - 3",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Watch Now",
+          "play": "https://youtu.be/j-2ZH4jVUW8?si=tmhZY3QgR-WfJYL2",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
