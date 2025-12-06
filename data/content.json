@@ -232,18 +232,5 @@
         "source": "data/PW30/pwp9/hindi.json"
       }
     }
-  },
-
-  "PA50": {
-   "pa10": {
-      "sst": {
-        "source": "data/PA50/pa10/sst.json"
-      },
-      "science": {
-        "source": "data/PA50/pa10/science.json"
-      },
-      "maths": {
-        "source": "data/PA50/pa10/maths.json"
-      }
-    }
   }
+}
