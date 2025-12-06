@@ -8,7 +8,25 @@
         {
           "id": "lec1",
           "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
+          "play": "https://www.youtube.com/watch?v=CTFuXmQsVdA",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619632/176486633584228929414/index_1.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+{
+      "id": "ch1",
+      "title": "Chemical Reaction & Equation",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620755/176495278440628929414/index_2.m3u8",
           "notes": ""
         }
       ]
