@@ -18,6 +18,18 @@
           "notes": ""
         }
       ]
+    },
+ {
+      "id": "ch2",
+      "title": "Relation and Function",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618597/176476900712385373082/176476900712385373082_5373082.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/8782861180040058.pdf"
+        }
+      ]
     }
   ]
 }
