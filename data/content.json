@@ -61,6 +61,23 @@
         "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/maths.json"
       }
 },
+   "vv11c": {
+      "business-studies": {
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/vv11c/bs.json"
+      },
+      "accounts": {
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/vv11c/acc.json"
+      },
+      "economics": {
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/vv11c/eco.json"
+      },
+      "maths": {
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/vv11c/maths.json"
+      },
+      "applied-maths": {
+        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/vv11c/applied-maths.json"
+      }
+},
     "vv11": {
       "science": {
         "source": "data/NT80/vv11/science.json"
