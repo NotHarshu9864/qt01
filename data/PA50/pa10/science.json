@@ -1,0 +1,53 @@
+{
+  "subject": "science",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Chemistry | Stage - 1",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://youtu.be/CTFuXmQsVdA",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch1",
+      "title": "Chemistry | Stage - 2",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch1",
+      "title": "Biology | Stage - 3",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    },
+   {
+      "id": "ch1",
+      "title": "Physics | Stage - 4",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
