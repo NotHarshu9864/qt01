@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QuickToppers Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- HLS.js -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <style>
+    body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+    }
+    .glow-cyan {
+      box-shadow: 0 0 20px rgba(34, 211, 238, 0.35);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center text-gray-200 p-4">
+
+<div class="w-full max-w-3xl bg-slate-900/80 border border-cyan-400/40 rounded-2xl p-5 glow-cyan backdrop-blur-xl">
+
+  <!-- Header -->
+  <div class="text-center mb-4">
+    <h1 class="text-xl font-bold tracking-wider text-cyan-300 drop-shadow">
+      QuickToppers Live
+    </h1>
+  </div>
+
+  <!-- Video Player -->
+  <div class="relative rounded-xl overflow-hidden shadow-xl border border-cyan-500/30" id="videoWrapper">
+    <video id="video" playsinline class="w-full bg-black rounded-xl"></video>
+
+    <!-- Big Play Button -->
+    <div id="bigPlay"
+      class="absolute inset-0 hidden items-center justify-center bg-black/20 backdrop-blur-sm cursor-pointer">
+      <button class="w-20 h-20 rounded-full bg-cyan-500/20 border border-cyan-400 flex items-center justify-center">
+        <span class="ml-1 
+        border-solid border-transparent border-l-[30px] border-y-[18px] border-l-cyan-300"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="mt-4 flex flex-col gap-3">
+
+    <!-- Time + Quality -->
+    <div class="flex justify-between items-center flex-wrap gap-3">
+
+      <div class="px-4 py-2 bg-slate-800/60 border border-slate-700 rounded-full flex items-center gap-2">
+        <span id="currentTime" class="font-mono">00:00</span>
+        <span>/</span>
+        <span id="duration" class="font-mono">00:00</span>
+      </div>
+
+      <div id="qualityPill"
+           class="px-4 py-2 bg-slate-800/60 border border-slate-700 rounded-full flex items-center gap-2">
+        <label class="text-sm text-gray-300">Quality</label>
+        <select id="qualitySelect" class="bg-transparent text-cyan-300 outline-none"></select>
+      </div>
+
+    </div>
+
+    <!-- Speed / Volume / Fullscreen -->
+    <div class="flex justify-between items-center flex-wrap gap-3">
+
+      <div class="px-4 py-2 bg-slate-800/60 border border-slate-700 rounded-full flex items-center gap-2">
+        <label class="text-sm text-gray-300">Speed</label>
+        <select id="speedSelect" class="bg-transparent text-cyan-300 outline-none">
+          <option value="0.5">0.5X</option>
+          <option value="0.75">0.75X</option>
+          <option value="1" selected>1X</option>
+          <option value="1.25">1.25X</option>
+          <option value="1.5">1.5X</option>
+          <option value="2">2X</option>
+        </select>
+      </div>
+
+      <div class="px-4 py-2 bg-slate-800/60 border border-slate-700 rounded-full flex items-center gap-2">
+        <label class="text-sm text-gray-300">Vol</label>
+        <input id="volumeRange" type="range" min="0" max="1" step="0.05" value="1"
+               class="accent-cyan-400 cursor-pointer">
+      </div>
+
+      <button id="fullscreenBtn"
+        class="px-4 py-2 bg-cyan-500/20 border border-cyan-400 rounded-full text-cyan-300 hover:bg-cyan-500/30">
+        ⛶ Fullscreen
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const initialUrl = "";
+  const backendQuals = [];
+
+  const video = document.getElementById("video");
+  const qualitySelect = document.getElementById("qualitySelect");
+  const qualityPill = document.getElementById("qualityPill");
+  const speedSelect = document.getElementById("speedSelect");
+  const volumeRange = document.getElementById("volumeRange");
+  const fullscreenBtn = document.getElementById("fullscreenBtn");
+  const currentTimeEl = document.getElementById("currentTime");
+  const durationEl = document.getElementById("duration");
+  const bigPlay = document.getElementById("bigPlay");
+  const videoWrapper = document.getElementById("videoWrapper");
+
+  let hls = null;
+  let qualityList = backendQuals || [];
+  let activeQualityIndex = qualityList.length ? qualityList[0].index : null;
+
+  const fmt = (s) => {
+    if (!s) return "00:00";
+    const m = Math.floor(s / 60).toString().padStart(2, "0");
+    const ss = Math.floor(s % 60).toString().padStart(2, "0");
+    return `${m}:${ss}`;
+  };
+
+  function destroyHls() {
+    if (hls) try { hls.destroy(); } catch {}
+    hls = null;
+  }
+
+  function loadWithUrl(url) {
+    destroyHls();
+    video.src = "";
+
+    if (!url) return;
+
+    if (Hls.isSupported()) {
+      hls = new Hls();
+      hls.loadSource(url);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(()=>{}));
+      hls.on(Hls.Events.ERROR, () => fallbackOnError());
+    } else {
+      video.src = url;
+      video.addEventListener("loadedmetadata", () => video.play().catch(()=>{}));
+    }
+  }
+
+  function fillQualitySelect() {
+    if (!qualityList.length) return qualityPill.classList.add("hidden");
+
+    qualitySelect.innerHTML = "";
+    qualityList.forEach(q => {
+      const opt = document.createElement("option");
+      opt.value = q.index;
+      opt.textContent = q.label;
+      qualitySelect.appendChild(opt);
+    });
+    qualitySelect.value = activeQualityIndex;
+  }
+
+  function selectQuality(i) {
+    const q = qualityList.find(x => x.index == i);
+    if (!q) return;
+    activeQualityIndex = i;
+    loadWithUrl(q.url);
+  }
+
+  function fallbackOnError() {
+    const idx = qualityList.findIndex(q => q.index === activeQualityIndex);
+    if (idx === -1 || !qualityList[idx + 1]) return;
+    selectQuality(qualityList[idx + 1].index);
+  }
+
+  fillQualitySelect();
+  if (initialUrl) loadWithUrl(initialUrl);
+
+  bigPlay.addEventListener("click", () => video.paused ? video.play() : video.pause());
+
+  video.addEventListener("play", () => bigPlay.classList.add("hidden"));
+  video.addEventListener("pause", () => bigPlay.classList.remove("hidden"));
+
+  video.addEventListener("timeupdate", () => currentTimeEl.textContent = fmt(video.currentTime));
+  video.addEventListener("loadedmetadata", () => durationEl.textContent = fmt(video.duration));
+
+  qualitySelect.addEventListener("change", () => selectQuality(parseInt(qualitySelect.value)));
+  speedSelect.addEventListener("change", () => video.playbackRate = parseFloat(speedSelect.value));
+  volumeRange.addEventListener("input", () => video.volume = parseFloat(volumeRange.value));
+
+  fullscreenBtn.addEventListener("click", () => {
+    if (!document.fullscreenElement) videoWrapper.requestFullscreen();
+    else document.exitFullscreen();
+  });
+</script>
+
+</body>
+</html>
