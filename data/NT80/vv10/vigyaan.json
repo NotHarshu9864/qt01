@@ -28,6 +28,24 @@
           "title": "Lecture 1 ",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620755/176495278440628929414/index_2.m3u8",
           "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621487/176503767870658929414/176503767870658929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+  {
+      "id": "ch3",
+      "title": "Light",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4625151/176538427990258929414/176538427990258929414_8929414.m3u8",
+          "notes": ""
         }
       ]
     }
