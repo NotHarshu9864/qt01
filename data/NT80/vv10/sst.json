@@ -24,6 +24,30 @@
           "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/132770512083339820.pdf"
         }
       ]
+    },
+  {
+      "id": "ch3",
+      "title": "The Rise of Nationalism in Europe",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623776/176528746347517125088/176528746347517125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+  {
+      "id": "ch4",
+      "title": "Resources and development",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622695/176519912253107125088/176519912253107125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
