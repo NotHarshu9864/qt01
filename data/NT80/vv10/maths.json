@@ -16,6 +16,30 @@
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620608/176494086496628752407/index_3.m3u8",
           "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3 + Polynomials",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621380/176502789743558752407/176502789743558752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+  {
+      "id": "ch2",
+      "title": "Polynomials",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622841/176521304147948752407/176521304147948752407_8752407.m3u8",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623920/176530012750368752407/176530012750368752407_8752407.m3u8",
+          "notes": ""
         }
       ]
     }
