@@ -1,0 +1,23 @@
+ {
+  "subject": "applied-maths",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Numerical Inequalities",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620759/176495358919131747630/176495358919131747630_1747630.m3u8",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622840/176521251625761747630/176521251625761747630_1747630.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
