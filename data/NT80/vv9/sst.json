@@ -24,6 +24,30 @@
           "notes": ""
         }
       ]
+    },
+  {
+      "id": "ch3",
+      "title": "India Size and Location",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622819/176521045035827125088/176521045035827125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+  {
+      "id": "ch4",
+      "title": "French Revolution",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623901/176529784398897125088/176529784398897125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
