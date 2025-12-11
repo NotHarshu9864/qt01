@@ -34,6 +34,102 @@
           "title": "Lecture 1 ",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620619/176494124233292764802/176494124233292764802_2764802.m3u8",
           "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/93708924896954510.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620619/176494124233292764802/176494124233292764802_2764802.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/828187703573617500.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Chemical Kinetics",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623894/176529717777852764802/176529717777852764802_2764802.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/322907836930280900.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Electric Charges and Feild",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 2 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618730/176477968443155910848/176477968443155910848_5910848.m3u8",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620751/176495266698165910848/176495266698165910848_5910848.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Electrostatic Potential and Capacitance",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621496/176503900975665910848/176503900975665910848_5910848.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/54908584272872584.pdf"
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622758/176520293462985910848/176520293462985910848_5910848.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/380923516709598100.pdf"
+        }
+      ]
+    },
+  {
+      "id": "ch6",
+      "title": "Sexual Reproduction in Flowering Plants",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619525/176485615072153740487/176485615072153740487_3740487.m3u8",
+          "notes": ""
+        },
+       {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621375/176502737661623740487/176502737661623740487_3740487.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+  {
+      "id": "ch7",
+      "title": "Human Reproduction",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1 ",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622827/176521152131733740487/176521152131733740487_3740487.m3u8",
+          "notes": ""
+        },
+       {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623747/176528609891453740487/176528609891453740487_3740487.m3u8",
+          "notes": ""
         }
       ]
     }
