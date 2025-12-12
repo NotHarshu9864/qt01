@@ -43,22 +43,22 @@
     },
     "v11": {
       "business-studies": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/bs.json"
+        "source": "data/NT80/v11/business-studies.json"
       },
       "accountancy": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/acc.json"
+        "source": ""
       },
       "economics": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/eco.json"
+        "source": ""
       },
       "english": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/english.json"
+        "source": ""
       },
       "hindi": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/hindi.json"
+        "source": ""
       },
       "maths": {
-        "source": "https://cdn.jsdelivr.net/gh/NotHarshu9864/QuickToppersDB/NT80/v11/maths.json"
+        "source": ""
       }
 },
    "vv11c": {
