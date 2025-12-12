@@ -1,0 +1,443 @@
+{
+  "subject": "business-studies",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Business, Trade & Commerce",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://www.youtube.com/embed/PUa2-buHJII",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/277767275437755360.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4352997/174481925589108661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/289731167636018000.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4354036/174490571525318661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/818707773744364900.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4356791/174525158582868661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/533526925056925500.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4357840/174533779119448661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/445097973128453200.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4358827/174541222825788661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/757750182556575400.pdf"
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4363370/174585516974368661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/879617321755430100.pdf"
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4364782/174594193147598661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/332614500380313860.pdf"
+        },
+        {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4365823/174601759672428661500/index_4.m3u8",
+          "notes": "#"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Forms of Business Organisations",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4372297/174646087088698661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/757750182556575400.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4373926/174654697344648661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/157859244933986080.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4374884/174662261770168661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/172211302848233380.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4379158/174706487485118661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/575516221347988000.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4380752/174715045969568661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/514183563299279100.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4385844/174767049839008661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/93050589060278740.pdf"
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4387080/174775705352788661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/225497626209866100.pdf"
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4388072/174783296668778661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/357905941387830660.pdf"
+        },
+        {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4392903/174827554771168661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/521771810676537860.pdf"
+        },
+        {
+          "id": "lec10",
+          "title": "Lecture 10",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4394020/174836176027458661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/115384204466978060.pdf"
+        },
+        {
+          "id": "lec11",
+          "title": "Lecture 11",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4394995/174843818528908661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/111043958041913060.pdf"
+        },
+        {
+          "id": "lec12",
+          "title": "Lecture 12",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4405285/174948346750638661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/541111567723171700.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Private,Public & Global enterprises",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4406374/174957111252968661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/696115565089290600.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4407342/174964695058678661500/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/177543330875768450.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4411413/175009183176652266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/147105766907851420.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4412638/175017539912532266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/86761163414833900.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4413731/175025130677182266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/509535719015138940.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Business Services",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4476031/175190305641542266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/782062517551608800.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4480084/175223811021262266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/24231040812887740.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4480746/175232513579202266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/437678016286035900.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4482045/175250851969992266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/410848168647632200.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4483091/175259396431322266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/688157629473908900.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Emerging modes of Business",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4491458/175327501467052266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/238428975142678560.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4501798/175371804387502266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/153321291316372670.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4503349/175380327645912266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/94992210333630930.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Social responsibilities of Business & Business Ethics",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4504270/175388052281942266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/246832857705181920.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4512392/175432190160932266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/69320691924078330.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4513374/175440833387152266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/64139402719049830.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4514203/175448404073462266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/637402108058015000.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Sources of Business Finance",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4517454/175492770874902266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/221250363333199140.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4518778/175501363081052266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/32823994764568920.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4519882/175508930330232266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/245187828642085800.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4523375/175553182925872266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/61712202658229310.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4524530/175561825951232266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/687181354680421900.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Internal Trade",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4557110/175864276379062266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/866169612730575900.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4558555/175872994980582266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/337199796740230700.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4562806/175916088183522266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/162495876016497120.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4563852/175924724464762266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/17429998648485278.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4564752/175932344043002266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/204711087396714940.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "Small business and interprises",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4531476/175622304162882266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/25391432834732030.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4532505/175629903772892266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/137663691105864320.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4544336/175734607882672266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/805909769274929800.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4545310/175743236223582266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/506910255208667500.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4546094/175750834271062266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/796631150119486800.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4555926/175855532383362266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/770410220396000800.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "International Trade",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4570843/175985198349242266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/326248277889484000.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4572160/175992901698672266688/index_4.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/623565528199737200.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4577034/176037047962802266688/index_3.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/497625714015081200.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4579233/1760539607_2368120489978596/sunny/1760539547697_202582183080500580_video_VOD720p30.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/296920559835559360.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4579116/176053325527742266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/100817409947103870.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4581035/176070454935202266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/196837755709246240.pdf"
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4585325/176157918158972266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/366454403672188300.pdf"
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4586291/176166576981632266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/790223674815098400.pdf"
+        },
+        {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4587149/176174095862282266688/index_1.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/790223674815098400.pdf"
+        }
+      ]
+    }
+  ]
+}
