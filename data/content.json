@@ -45,7 +45,7 @@
       "business-studies": {
         "source": "data/NT80/v11/business-studies.json"
       },
-      "accountancy": {
+      "accounts": {
         "source": "data/NT80/v11/accounts.json"
       },
       "economics": {
