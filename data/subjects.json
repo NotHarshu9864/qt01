@@ -155,6 +155,38 @@
         "link": "content.html?institute=NT80&batch=v9&subject=hindi"
       }
     ],
+   "v9": [
+      {
+        "name": "Business Studies",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=business-studies"
+      },
+      {
+        "name": "Accountancy",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=accounts"
+      },
+      {
+        "name": "Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=maths"
+      },
+     {
+        "name": "Economics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=economics"
+      },
+     {
+        "name": "English",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=english"
+      },
+     {
+        "name": "Hindi",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v11&subject=hindi"
+      }
+    ],
    "vv10": [
       {
         "name": "Mathematics",
