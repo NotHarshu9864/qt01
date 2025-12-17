@@ -40,6 +40,12 @@
           "title": "Lecture 1 ",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623754/176528644715875373082/176528644715875373082_5373082.m3u8",
           "notes": ""
+        },
+       {
+          "id": "lec",
+          "title": "Lecture ",
+          "play": "",
+          "notes": ""
         }
       ]
     }
