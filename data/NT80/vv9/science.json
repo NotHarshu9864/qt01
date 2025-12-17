@@ -3,24 +3,72 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "The Fundamental Unit of Life",
+      "title": "Motion",
       "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621349/176502533378778929414/176502533378778929414_8929414.m3u8",
+          "notes": ""
+        },
         {
           "id": "lec2",
           "title": "Lecture 2",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619476/176485277822528929414/index_2.m3u8",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/657975539220300300.pdf"
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4625045/176537440085878929414/176537440085878929414_8929414.m3u8",
+          "notes": ""
         }
       ]
     },
-   {
+    {
       "id": "ch2",
+      "title": "Force and Laws of Motion",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4631837/176597645117718929414/176597645117718929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch3",
       "title": "Matter in our Surroundings",
-      "video": [
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620573/176493920676138929414/176493920676138929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Is matter around us pure?",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4627267/176554315593858929414/176554315593858929414_8929414.m3u8",
+          "notes": ""
+        },
         {
           "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4628038/176563018460858929414/176563018460858929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "The fundamental unit of life",
+      "videos": [
+        {
+          "id": "lec1",
           "title": "Lecture 1",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619634/176486664557011747630/index_2.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619476/176485277822528929414/176485277822528929414_8929414.m3u8",
           "notes": ""
         }
       ]
