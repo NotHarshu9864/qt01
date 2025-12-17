@@ -3,12 +3,48 @@
   "chapters": [
     {
       "id": "ch1",
+      "title": "Doubt Class",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4630516/1765885810_6406046219429307/sunny/1765885760902_389445276798472000_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch2",
       "title": "Introduction",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
           "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4618645/1764772363_7968967796390345/sunny/1764772345713_600238072661614700_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Self-Management Skills",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4624386/1765354537_9941371098992616/sunny/1765354448757_238649701678807840_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Communication Skill",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4622745/1765201736_1487256562982562/sunny/1765201622006_387382901479692160_video_VOD.m3u8",
           "notes": ""
         }
       ]
