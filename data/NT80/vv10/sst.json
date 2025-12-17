@@ -3,48 +3,96 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "Development",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://www.youtube.com/live/YEevDOOHWe8?si=-ykOG9si6DkMp4Ay",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/365223900581407600.pdf"
-        }
-      ]
-    },
-   {
-      "id": "ch2",
-      "title": "Power Sharing",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619473/176485272836577125088/index_1.m3u8",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/132770512083339820.pdf"
-        }
-      ]
-    },
-  {
-      "id": "ch3",
-      "title": "The Rise of Nationalism in Europe",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623776/176528746347517125088/176528746347517125088_7125088.m3u8",
-          "notes": ""
-        }
-      ]
-    },
-  {
-      "id": "ch4",
-      "title": "Resources and development",
+      "title": "Resource and Development",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622695/176519912253107125088/176519912253107125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Nationalism in India",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4631892/176597918089537125088/176597918089537125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Power Sharing",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619473/176485272836577125088/176485272836577125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Rise of Nationalism in Europe",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623776/176528746347517125088/176528746347517125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Sectors of Indian Economy",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4626135/176545874451477125088/176545874451477125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Federalism",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4629350/176580427812747125088/176580427812747125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Forests and Wildlife resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630615/176588947454377125088/176588947454377125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Doubt Solving Session",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4624973/176537131694357125088/176537131694357125088_7125088.m3u8",
           "notes": ""
         }
       ]
