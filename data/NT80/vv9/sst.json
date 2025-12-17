@@ -3,48 +3,84 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "People as Resources",
+      "title": "India size and location",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://www.youtube.com/watch?v=Df36zpeo-lw",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/780154400253199000.pdf"
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622819/176521045035827125088/176521045035827125088_7125088.m3u8",
+          "notes": ""
         }
       ]
     },
-   {
+    {
       "id": "ch2",
       "title": "What is Democracy? Why Democracy?",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619622/176486459664407125088/index_2.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619622/176486459664407125088/176486459664407125088_7125088.m3u8",
           "notes": ""
         }
       ]
     },
-  {
+    {
       "id": "ch3",
-      "title": "India Size and Location",
+      "title": "Doubt Solving Session",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622819/176521045035827125088/176521045035827125088_7125088.m3u8",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4625138/176538117436097125088/176538117436097125088_7125088.m3u8",
           "notes": ""
         }
       ]
     },
-  {
+    {
       "id": "ch4",
+      "title": "Physical Features of India",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630821/176590168387867125088/176590168387867125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Poverty as a Challenge",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4626298/176546852645837125088/176546852645837125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
       "title": "French Revolution",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
+          "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623901/176529784398897125088/176529784398897125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Constitutional Design",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4629473/176581387168147125088/176581387168147125088_7125088.m3u8",
           "notes": ""
         }
       ]
