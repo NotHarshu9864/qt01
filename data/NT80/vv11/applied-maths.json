@@ -3,24 +3,36 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "Sets & Relation",
-      "videos": [
-        {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://www.youtube.com/watch?v=0YgA8v-9iMk",
-          "notes": ""
-        }
-      ]
-    },
-   {
-      "id": "ch2",
       "title": "Indices and Logarithm",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619634/176486664557011747630/index_1.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Quantitative Aptitude",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4621444/1765032253_7946407032999539/sunny/1765028756126_344001293660962900_video_VOD.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623908/176529845195731747630/176529845195731747630_1747630.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4626334/176547220767241747630/176547220767241747630_1747630.m3u8",
           "notes": ""
         }
       ]
