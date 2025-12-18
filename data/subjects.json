@@ -6,10 +6,12 @@
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=maths"
       },
+      {
         "name": "Physics",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=physics"
       },
+      {
         "name": "Biology",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=biology"
@@ -19,10 +21,12 @@
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=biology"
       },
+      {
         "name": "English",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=english"
       },
+      {
         "name": "Hindi",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv11&subject=hindi"
@@ -40,14 +44,17 @@
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv12&subject=maths"
       },
+      {
         "name": "Physics",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv12&subject=physics"
       },
+      {
         "name": "Chemistry",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv12&subject=chemistry"
       },
+      {
         "name": "Biology",
         "thumbnail": "img/quick.jpg",
         "link": "content.html?institute=NT80&batch=vv12&subject=biology"
