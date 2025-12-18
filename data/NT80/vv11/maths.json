@@ -1,33 +1,87 @@
 {
-  "subject": "maths",
+  "subject": "",
   "chapters": [
     {
-      "id": "ch1",
+      "id": "ch2",
       "title": "Sets",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://www.youtube.com/watch?v=2TiuasNA4wU",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/514049998351830500.pdf"
-        },
-       {
-          "id": "lec2",
           "title": "Lecture 2",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618597/176476900712385373082/176476900712385373082_5373082.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619853/176491057595905373082/index_1.m3u8",
           "notes": ""
         }
       ]
     },
- {
-      "id": "ch2",
-      "title": "Relation and Function",
+    {
+      "id": "ch3",
+      "title": "Relation and Functions",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618597/176476900712385373082/176476900712385373082_5373082.m3u8",
-          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/8782861180040058.pdf"
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620748/176495219930115373082/index_3.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622730/176520083840655373082/176520083840655373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Complex Numbers",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4629361/176580500011515373082/176580500011515373082_5373082.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630824/176590231467795373082/176590231467795373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Linear Inequalities",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4631885/176597881477475373082/176597881477475373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Trigonometric Functions",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623895/176529745597285373082/176529745597285373082_5373082.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4625018/176537316949325373082/176537316949325373082_5373082.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4627433/176555653087225373082/176555653087225373082_5373082.m3u8",
+          "notes": ""
         }
       ]
     }
