@@ -79,8 +79,17 @@
       }
 },
     "vv11": {
-      "science": {
-        "source": "data/NT80/vv11/science.json"
+      "physics": {
+        "source": "data/NT80/vv11/physics.json"
+      },
+     "chemistry": {
+        "source": "data/NT80/vv11/chemistry.json"
+      },
+     "biology": {
+        "source": "data/NT80/vv11/biology.json"
+      },
+     "english": {
+        "source": "data/NT80/vv11/english.json"
       },
       "maths": {
         "source": "data/NT80/vv11/maths.json"
@@ -91,8 +100,17 @@
     },
 
    "vv12": {
-      "science": {
-        "source": "data/NT80/vv12/science.json"
+      "physics": {
+        "source": "data/NT80/vv12/physics.json"
+      },
+     "chemistry": {
+        "source": "data/NT80/vv12/chemistry.json"
+      },
+     "biology": {
+        "source": "data/NT80/vv12/biology.json"
+      },
+     "english": {
+        "source": "data/NT80/vv12/english.json"
       },
       "maths": {
         "source": "data/NT80/vv12/maths.json"
