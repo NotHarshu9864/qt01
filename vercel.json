@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/player", "dest": "/player.html" },
+    { "src": "/subject", "dest": "/subject.html" },
+    { "src": "/batches", "dest": "/batches.html" },
+    { "src": "/content", "dest": "/content.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
