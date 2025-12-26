@@ -4,22 +4,23 @@
     {
       "id": "ch1",
       "title": "Living World",
-      "videos": []
-    },
-    {
-      "id": "ch2",
-      "title": "#",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
+          "play": "https://eleck",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618527/176476501137013740487/176476501137013740487_3740487.m3u8",
           "notes": ""
         }
       ]
     },
     {
-      "id": "ch3",
+      "id": "ch2",
       "title": "Animal Kingdom",
       "videos": [
         {
@@ -37,7 +38,7 @@
       ]
     },
     {
-      "id": "ch4",
+      "id": "ch3",
       "title": "Plant Kingdom",
       "videos": [
         {
@@ -55,7 +56,7 @@
       ]
     },
     {
-      "id": "ch5",
+      "id": "ch4",
       "title": "Biological Classification",
       "videos": [
         {
@@ -73,7 +74,7 @@
       ]
     },
     {
-      "id": "ch6",
+      "id": "ch5",
       "title": "Morphology of Flowering Plants",
       "videos": [
         {
@@ -86,6 +87,54 @@
           "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4631858/176597756512283740487/176597756512283740487_3740487.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Cell: The Unit of life",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637562/176650583668873740487/176650583668873740487_3740487.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4638656/176658146189863740487/176658146189863740487_3740487.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Morphology of Flowering Plants",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630818/176590138277893740487/176590138277893740487_3740487.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4631858/176597756512283740487/176597756512283740487_3740487.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Structural Organisation in Animals",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636095/176640947347443740487/176640947347443740487_3740487.m3u8",
           "notes": ""
         }
       ]
