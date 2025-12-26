@@ -6,8 +6,8 @@
       "title": "Real Number",
       "videos": [
         {
-          "id": "lec2",
-          "title": "Lecture 2",
+          "id": "lec1",
+          "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620608/176494086496628752407/index_3.m3u8",
           "notes": ""
         },
@@ -63,6 +63,30 @@
           "id": "lec3",
           "title": "Lecture 3",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630819/176590162514318752407/176590162514318752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Quadratic Equation",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4634247/176614913165278752407/176614913165278752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636243/176641894183928752407/176641894183928752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637563/176650605161468752407/176650605161468752407_8752407.m3u8",
           "notes": ""
         }
       ]
