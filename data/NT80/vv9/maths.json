@@ -7,13 +7,13 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 2",
+          "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620757/176495328686098752407/index_1.m3u8",
           "notes": ""
         },
         {
           "id": "lec2",
-          "title": "Lecture 3",
+          "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621486/176503765996258752407/176503765996258752407_8752407.m3u8",
           "notes": ""
         }
@@ -63,6 +63,42 @@
           "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630699/176589205148848752407/176589205148848752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Linear Equation in 2 variables",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4634425/176616091680018752407/176616091680018752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Lines and Angles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4635048/176623610925358752407/176623610925358752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636070/176640818889018752407/176640818889018752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637409/176649545695538752407/176649545695538752407_8752407.m3u8",
           "notes": ""
         }
       ]
