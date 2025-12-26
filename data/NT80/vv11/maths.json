@@ -1,12 +1,18 @@
 {
-  "subject": "",
+  "subject": "maths",
   "chapters": [
     {
-      "id": "ch2",
+      "id": "ch1",
       "title": "Sets",
       "videos": [
         {
           "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtube",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4619853/176491057595905373082/index_1.m3u8",
           "notes": ""
@@ -14,7 +20,7 @@
       ]
     },
     {
-      "id": "ch3",
+      "id": "ch2",
       "title": "Relation and Functions",
       "videos": [
         {
@@ -32,7 +38,7 @@
       ]
     },
     {
-      "id": "ch4",
+      "id": "ch3",
       "title": "Complex Numbers",
       "videos": [
         {
@@ -50,7 +56,7 @@
       ]
     },
     {
-      "id": "ch5",
+      "id": "ch4",
       "title": "Linear Inequalities",
       "videos": [
         {
@@ -62,7 +68,7 @@
       ]
     },
     {
-      "id": "ch6",
+      "id": "ch5",
       "title": "Trigonometric Functions",
       "videos": [
         {
@@ -81,6 +87,42 @@
           "id": "lec3",
           "title": "Lecture 3",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4627433/176555653087225373082/176555653087225373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Binomial Theorem",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4638708/176658357629475373082/176658357629475373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Permutation and Combination",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4634431/176616181792745373082/176616181792745373082_5373082.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636129/176641043466845373082/176641043466845373082_5373082.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637564/176650637366125373082/176650637366125373082_5373082.m3u8",
           "notes": ""
         }
       ]
