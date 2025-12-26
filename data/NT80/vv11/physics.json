@@ -72,6 +72,48 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch5",
+      "title": "Gravitation",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637432/176649633737825910848/176649633737825910848_5910848.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4639530/176667866762655910848/176667866762655910848_5910848.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "System of Particles & Rotational Motion",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4633373/176607412629305910848/176607412629305910848_5910848.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4634282/176615011551765910848/176615011551765910848_5910848.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4635058/176623681538265910848/176623681538265910848_5910848.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
