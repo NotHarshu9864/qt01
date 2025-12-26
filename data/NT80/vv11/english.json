@@ -1,0 +1,77 @@
+{
+  "subject": "english",
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "A Photograph (Poem)",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4621086/1765005916_5786949011464538/sunny/1765005721080_348458116526878800_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Clauses",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4626863/1765525199_7754735005810365/sunny/1765525060895_58669603280158690_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "The Laburnum Top (Poem)",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4626865/1765525201_5930629396695544/sunny/1765525124955_724294739767100500_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "We’re Not Afraid to Die… if We Can Be Together",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4626864/1765525200_3139834904494004/sunny/1765525091362_534600063490854700_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "The Portrait of a Lady (Prose)",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4621088/1765005935_1222079322656425/sunny/1765005770877_375118029711538240_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "The Summer of the Beautiful White Horse (Prose)",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4626866/1765525202_8059357010088326/sunny/1765525162110_25408170869785108_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
