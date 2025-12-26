@@ -2,11 +2,17 @@
   "subject": "chemistry",
   "chapters": [
     {
-      "id": "ch2",
-      "title": "Some Basic Concepts of Chemistry",
+      "id": "ch1",
+      "title": "Some Basic concepts of chemistry",
       "videos": [
         {
           "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://edjdjs",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4618733/176477986259592764802/176477986259592764802_2764802.m3u8",
           "notes": ""
@@ -14,7 +20,7 @@
       ]
     },
     {
-      "id": "ch3",
+      "id": "ch2",
       "title": "Chemical Bonding",
       "videos": [
         {
@@ -38,7 +44,7 @@
       ]
     },
     {
-      "id": "ch4",
+      "id": "ch3",
       "title": "Structure of Atom",
       "videos": [
         {
@@ -62,7 +68,7 @@
       ]
     },
     {
-      "id": "ch5",
+      "id": "ch4",
       "title": "Periodic Table",
       "videos": [
         {
@@ -75,6 +81,54 @@
           "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4626132/176545860618212764802/176545860618212764802_2764802.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Hydrocarbons",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4639457/176666899016062764802/176666899016062764802_2764802.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Organic Chemistry",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4635143/176624792142222764802/176624792142222764802_2764802.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636252/176642000958472764802/176642000958472764802_2764802.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4638811/176659268443202764802/176659268443202764802_2764802.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Redox Reaction",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4633239/176606521918282764802/176606521918282764802_2764802.m3u8",
           "notes": ""
         }
       ]
