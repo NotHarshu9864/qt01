@@ -36,6 +36,54 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch3",
+      "title": "Logical Reasoning",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637585/176650819865331747630/176650819865331747630_1747630.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Sequences and Series",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4628150/176564393313771747630/176564393313771747630_1747630.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4630844/176590419574341747630/176590419574341747630_1747630.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Permutations and Combinations",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4633407/176607722988451747630/176607722988451747630_1747630.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4635149/176624885630781747630/176624885630781747630_1747630.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
