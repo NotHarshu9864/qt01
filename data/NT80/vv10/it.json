@@ -48,6 +48,30 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch5",
+      "title": "Enterpreneurship Skill",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4635276/176631968722518496551/176631968722518496551_8496551.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "ICT Skill",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4635212/1766301314_4095058901026565/sunny/1766301198213_203610761804204380_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
