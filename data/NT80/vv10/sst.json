@@ -96,6 +96,54 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch9",
+      "title": "Gender, Religion and Caste",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637418/176649594895587125088/176649594895587125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "The Making of a Global World",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4639416/176666634849717125088/176666634849717125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Money and Credit",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636092/176640936083167125088/176640936083167125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "Water as Resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4638667/176658189099587125088/176658189099587125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
