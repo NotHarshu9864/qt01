@@ -7,44 +7,116 @@
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 2",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4620621/176494135057085373082/176494135057085373082_5373082.m3u8",
+          "title": "Relation and Function",
+          "play": "https://www.youtube.com/watch?v=iw8fLkGL76g",
           "notes": ""
         }
       ]
     },
-  {
+    {
       "id": "ch2",
-      "title": "Inverse Trigonometry Function",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4620621%2F176494135057085373082%2F176494135057085373082_5373082.m3u8",
       "videos": [
         {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4621379/176502782183465373082/176502782183465373082_5373082.m3u8",
-          "notes": ""
-        },
-       {
           "id": "lec2",
-          "title": "Lecture 2",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622825/176521129726095373082/176521129726095373082_5373082.m3u8",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4620621%2F176494135057085373082%2F176494135057085373082_5373082.m3u8",
+          "play": "Determinants",
           "notes": ""
         }
       ]
     },
-  {
+    {
       "id": "ch3",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4628071%2F176563238042505373082%2F176563238042505373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec3",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4628071%2F176563238042505373082%2F176563238042505373082_5373082.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4629488/176581590931225373082/176581590931225373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
       "title": "Matrices",
       "videos": [
         {
-          "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4623754/176528644715875373082/176528644715875373082_5373082.m3u8",
+          "id": "lec4",
+          "title": "Matrices",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4629488/176581590931225373082/176581590931225373082_5373082.m3u8",
           "notes": ""
-        },
-       {
-          "id": "lec",
-          "title": "Lecture ",
-          "play": "",
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4623754%2F176528644715875373082%2F176528644715875373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec5",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4623754%2F176528644715875373082%2F176528644715875373082_5373082.m3u8",
+          "play": "Continuity and Differentiability",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4630693%2F176589178133835373082%2F176589178133835373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec6",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4630693%2F176589178133835373082%2F176589178133835373082_5373082.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4633233/176606481377835373082/176606481377835373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4635065%2F176623725415135373082%2F176623725415135373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec7",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4635065%2F176623725415135373082%2F176623725415135373082_5373082.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4636249/176641977118995373082/176641977118995373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Application of Derivatives",
+      "videos": [
+        {
+          "id": "lec8",
+          "title": "Application of Derivatives",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637436/176649651058685373082/176649651058685373082_5373082.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4639468%2F176666937344825373082%2F176666937344825373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec9",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4639468%2F176666937344825373082%2F176666937344825373082_5373082.m3u8",
+          "play": "Inverse Trigonometry Functions",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4621379%2F176502782183465373082%2F176502782183465373082_5373082.m3u8",
+      "videos": [
+        {
+          "id": "lec10",
+          "title": "https://e-leak.vercel.app/play/live/https%3A%2F%2Fd274dp7v20n4nf.cloudfront.net%2Ffile_library%2Fvideos%2Fchannel_vod_non_drm_hls%2F4621379%2F176502782183465373082%2F176502782183465373082_5373082.m3u8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4622825/176521129726095373082/176521129726095373082_5373082.m3u8",
           "notes": ""
         }
       ]
