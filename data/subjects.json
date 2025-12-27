@@ -222,6 +222,45 @@
         "link": "content.html?institute=NT80&batch=v11&subject=hindi"
       }
     ],
+
+  "v12": [
+      {
+        "name": "Geography",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=geography"
+      },
+      {
+        "name": "History",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=history"
+      },
+      {
+        "name": "Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=maths"
+      },
+     {
+        "name": "Economics",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=economics"
+      },
+     {
+        "name": "English",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=english"
+      },
+     {
+        "name": "Applied Maths",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=applied-maths"
+      },
+     {
+        "name": "Hindi",
+        "thumbnail": "img/quick.jpg",
+        "link": "content.html?institute=NT80&batch=v12&subject=hindi"
+      }
+    ],
+
    "vv10": [
       {
         "name": "Mathematics",
