@@ -1,14 +1,530 @@
 {
-  "subject": "maths",
+  "subject": "geography",
   "chapters": [
     {
       "id": "ch1",
-      "title": "Number System",
+      "title": "Geography Mapping",
       "videos": [
         {
           "id": "lec1",
-          "title": "Lecture 1 ",
-          "play": "https://youtu.be/CTFuXmQsVdA",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4592251/176226108093286974485/176226108093286974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/565396247077406850.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4593307/176235024585696974485/176235024585696974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/787238997406071700.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4528950/175603345096686974485/175603345096686974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/433296300859177660.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Geographical Perspective on Selected Issues and Problems",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4578013/176044572513356974485/176044572513356974485_6974485.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4579280/176054287625016974485/176054287625016974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/205745830164495100.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4585164/176156940679316974485/176156940679316974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/262025408734993600.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d133w6ldrek1er.cloudfront.net/out/v1/e61e50036c314fb282ba7e2a83ea631a/index.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/446380679048391300.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "International Trade",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4555762/175854549391076974485/175854549391076974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/774427910381355100.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4556932/175863161180406974485/175863161180406974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/743546761492552.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4558543/175872867628106974485/175872867628106974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/793675689568855400.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4562603/175914959384806974485/175914959384806974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/730256464207024100.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Transport and Trade",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4537961/175681767588746974485/175681767588746974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/584585713044935000.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4539776/175691537892346974485/175691537892346974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/780438976976095600.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4543163/175716869477826974485/175716869477826974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/887594747044389100.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4544195/175733633291506974485/175733633291506974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/463681503727028600.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4545165/175742270970136974485/175742270970136974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/95974731465505920.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4546261/175751834718366974485/175751834718366974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/599692834665599100.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Planning and Sustainable Development in Indian Context",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4529941/175612646366996974485/175612646366996974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/1021743072197867.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4531203/175621332945116974485/175621332945116974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/852272236888722600.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4532704/175630901886836974485/175630901886836974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/894505161442788700.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Tertiary and Quaternary Activities",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4520169/175510039216766974485/175510039216766974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/78054319839606460.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "http://nexttoppers.com/4523181_0_2806759027500373/videocrypt.mpd",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/271404522511025280.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4525706/175570503125006974485/175570503125006974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/694737469619228000.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Secondary Activities",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4516336/175482282826216974485/175482282826216974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/85535157143531600.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4517283/175491744412366974485/175491744412366974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/641608576155477600.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4518496/175500221119986974485/175500221119986974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/201176894064452580.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Mineral and Energy Resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4547837/1757675132_4703292002750958/sunny/1757673039908_648106744530227300_video_VOD.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/45319837642250790.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4512230/175431284096498929414/175431284096498929414_8929414.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/225443598853207600.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4513174/175439886246336974485/175439886246336974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/874364725007907100.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4514429/175449460824476974485/175449460824476974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/514347076915735700.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "Primary Activities",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4487963/175310326993716974485/175310326993716974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/147393401757031800.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4495288/175354041583706974485/175354041583706974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/216025357606576900.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4501599/175370822160256974485/175370822160256974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/244505217458777470.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4503204/175379436681316974485/175379436681316974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/13508818109961340.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4504548/175388896894536974485/175388896894536974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/202476963811967360.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "Water Resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4478177/175207700080216974485/175207700080216974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/480618939346723260.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4481917/175249816130926974485/175249816130926974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/378787772814524700.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4482899/175258500017476974485/175258500017476974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/371058298917979100.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4484100/175267875441956974485/175267875441956974485_6974485.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Human Development",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4475899/175189320544296974485/175189320544296974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/66955849155824240.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4476825/175197990049946974485/175197990049946974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/195367111254213060.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "Land Resources and Agriculture",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4407496/174965711836174925515/174965711836174925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/471996146434899840.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4408434/174974385916254925515/174974385916254925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/668481452496403700.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4409488/174983047424794925515/174983047424794925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/545025649882503360.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4411244/175007851633246974485/175007851633246974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/145566954117416480.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4412521/175016550442596974485/175016550442596974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/556959643518566800.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4413868/175026298963196974485/175026298963196974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/100911358935889730.pdf"
+        },
+        {
+          "id": "lec7",
+          "title": "Lecture 7",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4417642/175068395325166974485/175068395325166974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/713217294642044300.pdf"
+        },
+        {
+          "id": "lec8",
+          "title": "Lecture 8",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4418598/175077039551966974485/175077039551966974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/104732762206627680.pdf"
+        },
+        {
+          "id": "lec9",
+          "title": "Lecture 9",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4419842/175086857141486974485/175086857141486974485_6974485.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/109317243999348350.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch13",
+      "title": "World Population Distribution, Density and Growth",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4389345/174793032044844925515/174793032044844925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/457645931219612860.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4390978/174801632979844925515/174801632979844925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/225436462284914500.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4395112/174844732311204925515/174844732311204925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/48589932708618110.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4396262/174853338327174925515/174853338327174925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/499400590157921340.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "title": "Human Settlement",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4381990/174723805286554925515/174723805286554925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/847807000461777200.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4382941/174732490321964925515/174732490321964925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/307723730217866750.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4384130/174741105695554925515/174741105695554925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/806066315958034600.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4388154/174784157564044925515/174784157564044925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/772759215956946800.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch15",
+      "title": "Human Geography: Nature and Scope",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4363247/174584504521634925515/174584504521634925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/17201591565540630.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4364784/174594232386274925515/174594232386274925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/312203161850826300.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4367077/174610638243364925515/174610638243364925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/461611185910470700.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4372198/174645048174514925515/174645048174514925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/32295311542028516.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4373924/174654682025044925515/174654682025044925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/519634962176171900.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4374997/174663213532884925515/174663213532884925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/742281764296801500.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch16",
+      "title": "Population Distribution, Density, Growth and Composition",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/zaRExGVtMm4",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/803067848238029800.pdf"
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4354034/174490569039224925515/174490569039224925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/279494338773382240.pdf"
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4352999/174481960612064925515/174481960612064925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/733597806753544400.pdf"
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4356693/174524072755734925515/174524072755734925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/464077061085654900.pdf"
+        },
+        {
+          "id": "lec5",
+          "title": "Lecture 5",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4357838/174533777849564925515/174533777849564925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/390803394430538700.pdf"
+        },
+        {
+          "id": "lec6",
+          "title": "Lecture 6",
+          "play": "https://d1qcficr3lu37x.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4359006/174542231846054925515/174542231846054925515_4925515.m3u8",
+          "notes": "https://dxixtlyravvxx.cloudfront.net/540admin_v1/file_manager/pdf/307338651864968060.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ch17",
+      "title": "Weekly Practice Papers & Revision",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://youtu.be/HaEVyjzMkhU",
           "notes": ""
         }
       ]
