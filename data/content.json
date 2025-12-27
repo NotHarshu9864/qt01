@@ -121,23 +121,26 @@
     },
 
     "v12": {
-      "business-studies": {
-        "source": ""
+      "geography": {
+        "source": "data/NT80/v12/geography.json"
       },
-      "accountancy": {
-        "source": ""
+      "history": {
+        "source": "data/NT80/v12/history.json"
       },
       "economics": {
-        "source": ""
+        "source": "data/NT80/v12/economics.json"
       },
       "english": {
-        "source": ""
+        "source": "data/NT80/v12/english.json"
       },
       "hindi": {
-        "source": ""
+        "source": "data/NT80/v12/hindi.json"
+      },
+      "applied-maths": {
+        "source": "data/NT80/v12/applied-maths.json"
       },
       "maths": {
-        "source": ""
+        "source": "data/NT80/v12/maths.json"
       }
     },
     "vv9": {
