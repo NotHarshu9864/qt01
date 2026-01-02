@@ -1,20 +1,29 @@
 <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>NextToppers | Lecture Downloader</title>
+  <title>QuickToppers| Lecture Downloader</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;background:#0f172a;color:#e5e7eb;padding:20px}
-    .card{max-width:800px;margin:auto;background:#020617;padding:20px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
-    h1{font-size:22px;margin-bottom:10px}
-    input,button{width:100%;padding:12px;margin-top:10px;border-radius:8px;border:none;font-size:15px}
-    input{background:#020617;border:1px solid #334155;color:#fff}
-    button{background:#2563eb;color:#fff;cursor:pointer}
-    button.secondary{background:#16a34a}
-    button.download{background:#dc2626}
-    .result{margin-top:20px;display:none}
-    .box{background:#020617;border:1px solid #334155;padding:12px;border-radius:8px;margin-top:10px;word-break:break-all}
-    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    :root{
+      --bg:#020617;--card:#020617;--border:#1e293b;--pri:#2563eb;--ok:#16a34a;--danger:#dc2626
+    }
+    body{margin:0;font-family:Inter,Arial;background:linear-gradient(180deg,#020617,#020617);color:#e5e7eb}
+    .wrap{max-width:1100px;margin:auto;padding:24px}
+    .card{background:rgba(2,6,23,.9);backdrop-filter:blur(8px);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:0 20px 40px rgba(0,0,0,.45)}
+    h1{font-size:26px;margin:0 0 6px}
+    p{color:#94a3b8}
+    input,button{border-radius:12px;border:1px solid var(--border);padding:14px;font-size:15px}
+    input{width:100%;background:#020617;color:#fff}
+    button{cursor:pointer}
+    .btn{background:var(--pri);color:#fff;border:none}
+    .btn.ok{background:var(--ok)}
+    .btn.danger{background:var(--danger)}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    .result{margin-top:18px;display:none}
+    .row{display:grid;grid-template-columns:140px 1fr;gap:10px;align-items:center}
+    .box{background:#020617;border:1px solid var(--border);padding:12px;border-radius:10px;word-break:break-all}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#020617;border:1px solid var(--border);font-size:12px;color:#93c5fd}
   </style>
 </head>
 <body><div class="card">
@@ -39,35 +48,54 @@ function parseParams(url){
   return Object.fromEntries(u.searchParams.entries());
 }
 
+function normalizeParams(p){
+  return {
+    institute: p.institute || p.instituteId || p.appId,
+    batch: p.batch || p.batchId,
+    subject: p.subject || p.subjectId,
+    chapter: p.chapter || p.ch || p.chapterId,
+    lecture: p.lecture || p.lec || p.lectureId || p.schedule_id || p.topicId
+  };
+}
+
 async function processURL(){
   const url = document.getElementById('lectureUrl').value.trim();
   if(!url) return alert('Paste lecture URL');
 
-  const params = parseParams(url);
+    const rawParams = parseParams(url);
+  const params = normalizeParams(rawParams);
+
 
     /* NextToppers local JSON structure
      data/INSTITUTE_ID/BATCH_ID/SUBJECT_ID/lectures.json
   */
 
-  const instituteId = params.instituteId || params.appId;
-  const batchId = params.batchId;
-  const subjectId = params.subjectId;
+    const instituteId = params.institute;
+  const batchId = params.batch;
+  const subjectId = params.subject;
 
   if(!instituteId || !batchId || !subjectId){
-    alert('Invalid lecture URL: missing parameters');
+    alert('Invalid player URL: institute / batch / subject missing');
     return;
   }
 
-  const api = `data/${instituteId}/${batchId}/${subjectId}/lectures.json`;
+      const api = `https://api-quicktoppers.vercel.app/data/${instituteId}/${batchId}/${subjectId}.json`;
 
   try{
     const res = await fetch(api);
         const json = await res.json();
 
     /* find lecture using lectureId / schedule_id / topicId */
-    const lectureId = params.lectureId || params.schedule_id || params.topicId;
+            const chapterId = params.chapter;
+    const lectureId = params.lecture;
 
-    const data = json.find(l =>
+
+        const data = json.find(l =>
+      (!chapterId || l.ch === chapterId || l.chapterId === chapterId) &&
+      (l.lec === lectureId || l.lectureId === lectureId || l.id === lectureId)
+    );
+
+(l =>
       l.id === lectureId ||
       l.lectureId === lectureId ||
       l.topicId === lectureId
