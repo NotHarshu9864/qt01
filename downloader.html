@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NextToppers | Lecture Downloader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#0f172a;color:#e5e7eb;padding:20px}
+    .card{max-width:800px;margin:auto;background:#020617;padding:20px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+    h1{font-size:22px;margin-bottom:10px}
+    input,button{width:100%;padding:12px;margin-top:10px;border-radius:8px;border:none;font-size:15px}
+    input{background:#020617;border:1px solid #334155;color:#fff}
+    button{background:#2563eb;color:#fff;cursor:pointer}
+    button.secondary{background:#16a34a}
+    button.download{background:#dc2626}
+    .result{margin-top:20px;display:none}
+    .box{background:#020617;border:1px solid #334155;padding:12px;border-radius:8px;margin-top:10px;word-break:break-all}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+  </style>
+</head>
+<body><div class="card">
+  <h1>📥 Lecture Downloader</h1>
+  <p>Paste public lecture URL (batch, subject, lecture, ch id supported)</p>  <input id="lectureUrl" placeholder="Paste lecture public URL here" />
+  <button onclick="processURL()">Fetch Lecture</button>  <div class="result" id="result">
+    <h3>Lecture Info</h3>
+    <div class="box" id="lectureTitle">Title: --</div>
+    <div class="box" id="m3u8Url">M3U8: --</div>
+    <div class="box" id="notesUrl">Notes: --</div><div class="actions">
+  <button class="secondary" onclick="watchOnline()">▶ Watch Online</button>
+  <button class="download" onclick="downloadM3U8()">⬇ Download Video</button>
+  <button class="download" onclick="downloadNotes()">⬇ Download Notes</button>
+</div>
+
+  </div>
+</div><script>
+let fetchedData = {};
+
+function parseParams(url){
+  const u = new URL(url);
+  return Object.fromEntries(u.searchParams.entries());
+}
+
+async function processURL(){
+  const url = document.getElementById('lectureUrl').value.trim();
+  if(!url) return alert('Paste lecture URL');
+
+  const params = parseParams(url);
+
+    /* NextToppers local JSON structure
+     data/INSTITUTE_ID/BATCH_ID/SUBJECT_ID/lectures.json
+  */
+
+  const instituteId = params.instituteId || params.appId;
+  const batchId = params.batchId;
+  const subjectId = params.subjectId;
+
+  if(!instituteId || !batchId || !subjectId){
+    alert('Invalid lecture URL: missing parameters');
+    return;
+  }
+
+  const api = `data/${instituteId}/${batchId}/${subjectId}/lectures.json`;
+
+  try{
+    const res = await fetch(api);
+        const json = await res.json();
+
+    /* find lecture using lectureId / schedule_id / topicId */
+    const lectureId = params.lectureId || params.schedule_id || params.topicId;
+
+    const data = json.find(l =>
+      l.id === lectureId ||
+      l.lectureId === lectureId ||
+      l.topicId === lectureId
+    );
+
+    if(!data){
+      alert('Lecture not found in local JSON');
+      return;
+    }
+();
+
+    fetchedData = {
+      title: data.title || 'Lecture',
+      m3u8: data.m3u8 || data.play,
+      notes: data.notes || ''
+    };
+
+    document.getElementById('lectureTitle').innerText = 'Title: ' + fetchedData.title;
+    document.getElementById('m3u8Url').innerText = 'M3U8: ' + fetchedData.m3u8;
+    document.getElementById('notesUrl').innerText = 'Notes: ' + (fetchedData.notes || 'Not available');
+    document.getElementById('result').style.display = 'block';
+
+  } catch(e){
+    alert('Failed to fetch lecture');
+  }
+}
+
+function watchOnline(){
+  if(!fetchedData.m3u8) return;
+  window.open(`/player.html?src=${encodeURIComponent(fetchedData.m3u8)}`, '_blank');
+}
+
+function downloadM3U8(){
+  if(!fetchedData.m3u8) return;
+  const a = document.createElement('a');
+  a.href = fetchedData.m3u8;
+  a.download = fetchedData.title + '.m3u8';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+function downloadNotes(){
+  if(!fetchedData.notes) return alert('No notes available');
+  const a = document.createElement('a');
+  a.href = fetchedData.notes;
+  a.target = '_blank';
+  a.download = '';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+</script></body>
+</html>
