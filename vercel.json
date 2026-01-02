@@ -4,6 +4,7 @@
     { "src": "/player", "dest": "/player.html" },
     { "src": "/subject", "dest": "/subject.html" },
     { "src": "/batches", "dest": "/batches.html" },
+    { "src": "/downloader", "dest": "/downloader.html" },
     { "src": "/content", "dest": "/content.html" }
   ]
 }
