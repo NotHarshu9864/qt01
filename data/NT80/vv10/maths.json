@@ -1,5 +1,5 @@
 {
-  "subject": "maths",
+  "subject": "",
   "chapters": [
     {
       "id": "ch1",
@@ -87,6 +87,66 @@
           "id": "lec3",
           "title": "Lecture 3",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637563/176650605161468752407/176650605161468752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4640492/176675443779728752407/176675443779728752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "AP",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4641159/176684089858148752407/176684089858148752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4642458/176702763797348752407/176702763797348752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4643671/176711354182318752407/176711354182318752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646039/176735911062688752407/176735911062688752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Trigonometry",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646737/176744542646428752407/176744542646428752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4648222/176763056212768752407/176763056212768752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4649261/176771435860868752407/176771435860868752407_8752407.m3u8",
           "notes": ""
         }
       ]
