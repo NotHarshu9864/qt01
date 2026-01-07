@@ -1,5 +1,5 @@
 {
-  "subject": "vigyaan",
+  "subject": "",
   "chapters": [
     {
       "id": "ch1",
@@ -105,6 +105,42 @@
           "id": "lec2",
           "title": "Lecture 2",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4633393/176607584891688929414/176607584891688929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Electricity",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4644580/176718423718318929414/176718423718318929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4645291/176728593278908929414/176728593278908929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "title": "Metals and Non metals",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646181/176737191643148929414/176737191643148929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646837/176745827229998929414/176745827229998929414_8929414.m3u8",
           "notes": ""
         }
       ]
