@@ -1,5 +1,5 @@
 {
-  "subject": "sst",
+  "subject": "",
   "chapters": [
     {
       "id": "ch1",
@@ -141,6 +141,54 @@
           "id": "lec1",
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4638667/176658189099587125088/176658189099587125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch13",
+      "title": "Globalization and The Indian Economy",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4643508/176709995312547125088/176709995312547125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "title": "Political Parties",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4645842/1767349712_2780078522505248/sunny/1767349584802_331452749349900160_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch15",
+      "title": "Agriculture",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4647977/176761807248797125088/176761807248797125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch16",
+      "title": "Print Culture and The Modern World",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4649166/176770648025187125088/176770648025187125088_7125088.m3u8",
           "notes": ""
         }
       ]
