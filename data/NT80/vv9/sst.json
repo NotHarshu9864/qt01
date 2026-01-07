@@ -27,6 +27,66 @@
     },
     {
       "id": "ch3",
+      "title": "Electroral Politics",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4637561/176650550650507125088/176650550650507125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Working of Institutions",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4643650/176711141753747125088/176711141753747125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "Climate",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4645287/176728503968167125088/176728503968167125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Democratic Rights",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4648206/176762886476687125088/176762886476687125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Population",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4649259/176771409249447125088/176771409249447125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
       "title": "Doubt Solving Session",
       "videos": [
         {
@@ -38,7 +98,7 @@
       ]
     },
     {
-      "id": "ch4",
+      "id": "ch9",
       "title": "Physical Features of India",
       "videos": [
         {
@@ -50,7 +110,7 @@
       ]
     },
     {
-      "id": "ch5",
+      "id": "ch10",
       "title": "Poverty as a Challenge",
       "videos": [
         {
@@ -62,7 +122,7 @@
       ]
     },
     {
-      "id": "ch6",
+      "id": "ch11",
       "title": "French Revolution",
       "videos": [
         {
@@ -74,7 +134,7 @@
       ]
     },
     {
-      "id": "ch7",
+      "id": "ch12",
       "title": "Constitutional Design",
       "videos": [
         {
@@ -86,7 +146,7 @@
       ]
     },
     {
-      "id": "ch8",
+      "id": "ch13",
       "title": "Socialism in Europe and The Russian Revolution",
       "videos": [
         {
@@ -98,7 +158,7 @@
       ]
     },
     {
-      "id": "ch9",
+      "id": "ch14",
       "title": "Drainage",
       "videos": [
         {
@@ -110,7 +170,7 @@
       ]
     },
     {
-      "id": "ch10",
+      "id": "ch15",
       "title": "Food Security in India",
       "videos": [
         {
@@ -122,7 +182,7 @@
       ]
     },
     {
-      "id": "ch11",
+      "id": "ch16",
       "title": "Constitutional Design",
       "videos": [
         {
@@ -134,13 +194,19 @@
       ]
     },
     {
-      "id": "ch12",
+      "id": "ch17",
       "title": "Nazism and The Rise of Hitler",
       "videos": [
         {
           "id": "lec1",
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4639531/176667884197277125088/176667884197277125088_7125088.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4642424/176702338437027125088/176702338437027125088_7125088.m3u8",
           "notes": ""
         }
       ]
