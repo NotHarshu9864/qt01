@@ -33,6 +33,36 @@
     },
     {
       "id": "ch3",
+      "title": "Gravitation",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4645206/176727205250358929414/176727205250358929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646038/176735910329188929414/176735910329188929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Work and Energy",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646704/176744317424288929414/176744317424288929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch5",
       "title": "Matter in our Surroundings",
       "videos": [
         {
@@ -44,7 +74,7 @@
       ]
     },
     {
-      "id": "ch4",
+      "id": "ch6",
       "title": "Is matter around us pure?",
       "videos": [
         {
@@ -62,7 +92,25 @@
       ]
     },
     {
-      "id": "ch5",
+      "id": "ch7",
+      "title": "Atoms and Molecules",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4640475/176675341843918929414/176675341843918929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4641140/176683928975568929414/176683928975568929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
       "title": "The fundamental unit of life",
       "videos": [
         {
@@ -80,7 +128,7 @@
       ]
     },
     {
-      "id": "ch6",
+      "id": "ch9",
       "title": "Tissue",
       "videos": [
         {
