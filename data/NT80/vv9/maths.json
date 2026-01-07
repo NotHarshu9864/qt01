@@ -102,6 +102,66 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch6",
+      "title": "Triangles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4641242/176685183183518752407/176685183183518752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4643429/176709717566908752407/176709717566908752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4644604/176718618479158752407/176718618479158752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec4",
+          "title": "Lecture 4",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4644684/176719535445238752407/176719535445238752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "title": "Quadrilaterals",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646156/176736998449868752407/176736998449868752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4647998/176761874827818752407/176761874827818752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "title": "Circles",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4649057/176770400068758752407/176770400068758752407_8752407.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
