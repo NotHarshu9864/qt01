@@ -72,6 +72,18 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch7",
+      "title": "Green Skills 1",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4639729/1766727676_3977430378640496/sunny/1766727386641_655027786069960100_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
