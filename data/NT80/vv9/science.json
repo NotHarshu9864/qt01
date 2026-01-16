@@ -58,11 +58,35 @@
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4646704/176744317424288929414/176744317424288929414_8929414.m3u8",
           "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4650416/176779193356298929414/176779193356298929414_8929414.m3u8",
+          "notes": ""
         }
       ]
     },
     {
       "id": "ch5",
+      "title": "Sound",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4658176/176839621818028929414/176839621818028929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4659353/176848492076148929414/176848492076148929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch6",
       "title": "Matter in our Surroundings",
       "videos": [
         {
@@ -74,7 +98,7 @@
       ]
     },
     {
-      "id": "ch6",
+      "id": "ch7",
       "title": "Is matter around us pure?",
       "videos": [
         {
@@ -92,7 +116,7 @@
       ]
     },
     {
-      "id": "ch7",
+      "id": "ch8",
       "title": "Atoms and Molecules",
       "videos": [
         {
@@ -110,7 +134,25 @@
       ]
     },
     {
-      "id": "ch8",
+      "id": "ch9",
+      "title": "Structure of Atom",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4652711/176787735065428929414/176787735065428929414_8929414.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4653903/176796339874668929414/176796339874668929414_8929414.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch10",
       "title": "The fundamental unit of life",
       "videos": [
         {
@@ -128,7 +170,7 @@
       ]
     },
     {
-      "id": "ch9",
+      "id": "ch11",
       "title": "Tissue",
       "videos": [
         {
