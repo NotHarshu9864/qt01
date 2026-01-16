@@ -160,6 +160,18 @@
           "title": "Lecture 1",
           "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4649057/176770400068758752407/176770400068758752407_8752407.m3u8",
           "notes": ""
+        },
+        {
+          "id": "lec2",
+          "title": "Lecture 2",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4656104/176822381213538752407/176822381213538752407_8752407.m3u8",
+          "notes": ""
+        },
+        {
+          "id": "lec3",
+          "title": "Lecture 3",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4657292/176830901876908752407/176830901876908752407_8752407.m3u8",
+          "notes": ""
         }
       ]
     }
