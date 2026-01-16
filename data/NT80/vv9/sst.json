@@ -210,6 +210,54 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch18",
+      "title": "Natural vegetation and wildlife",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4656267/176823230233637125088/176823230233637125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch19",
+      "title": "Forest society and colonialism",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4658335/176840630457307125088/176840630457307125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch20",
+      "title": "Pastoralist in the modern world",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4659483/176849312491177125088/176849312491177125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch21",
+      "title": "Map Work",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4652888/176788764281107125088/176788764281107125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
