@@ -192,6 +192,54 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch17",
+      "title": "Outcomes of democracy",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4652695/176787687026937125088/176787687026937125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch18",
+      "title": "Minerals and energy resources",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4656135/176822491282987125088/176822491282987125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch19",
+      "title": "Manufacturing Industries",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4658160/176839575287257125088/176839575287257125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch20",
+      "title": "Map work",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d274dp7v20n4nf.cloudfront.net/file_library/videos/channel_vod_non_drm_hls/4659288/176848238832727125088/176848238832727125088_7125088.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
