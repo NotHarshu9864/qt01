@@ -144,6 +144,30 @@
           "notes": ""
         }
       ]
+    },
+    {
+      "id": "ch13",
+      "title": "Descriptive Writing",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4653749/1767959360_9866068231603498/sunny/1767959257445_13333211681812496_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "title": "Story Writing",
+      "videos": [
+        {
+          "id": "lec1",
+          "title": "Lecture 1",
+          "play": "https://d3cx6qbbd4cbso.cloudfront.net/file_library/videos/vod_non_drm_ios/4653748/1767959359_6512539237865867/sunny/1767959176643_644631875241355000_video_VOD.m3u8",
+          "notes": ""
+        }
+      ]
     }
   ]
 }
